@@ -10,7 +10,7 @@ This course reflects the various skills and disciplines that are brought togethe
 **Office Hours:** By appointment
 
 
-##Important Links
+## Important Links
 Class Syllabus: https://docs.google.com/document/d/1_-_wN37EKPO1YRlq4T0qHRzwp6rqhA8wPOQ_hhbobUs/edit?usp=sharing
 
 Unity Hub Download: https://unity3d.com/get-unity/download
