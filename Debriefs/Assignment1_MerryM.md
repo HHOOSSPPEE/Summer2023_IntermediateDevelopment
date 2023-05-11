@@ -4,7 +4,7 @@ Link to game: (itch link)
 
 
 ## **Debrief**
-Here is where I would write my 400 word debrief. Within my debrief, I make sure to answer all the required quesitons.
+Here is where I would write my 400 word debrief. Within my debrief, I make sure to answer all the required questions.
 
 ## **Self Evaluation**
 
