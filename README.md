@@ -1,5 +1,5 @@
 # Summer2023_IntermediateDevelopment
-This course reflects the various skills and disciplines that are brought together in modern game development: game design, programming, asset creation, and critical analysis. Classroom lectures and lab time will all be used to bring these different educational vectors together into a coherent whole; the workshop will be organized around a single, long-term, hands-on, game creation project.
+This course reflects the various skills and disciplines that are brought together in modern game development: game design, programming, asset creation, and critical analysis. Classroom lectures and lab time will all be used to bring these different educational vectors together into a series of Unity projects.
 
 **Instructor:** Merry Hospelhorn
 
