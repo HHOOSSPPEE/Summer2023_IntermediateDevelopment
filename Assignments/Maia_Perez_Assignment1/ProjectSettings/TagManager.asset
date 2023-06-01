@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: floorSky
+    uniqueID: 3131214247
+    locked: 0
+  - name: buildingPools
+    uniqueID: 2459039423
+    locked: 0
+  - name: windowsDetails
+    uniqueID: 617292867
+    locked: 0
+  - name: morewindowDetail
+    uniqueID: 3725419923
+    locked: 0
+  - name: FENCEgrass
+    uniqueID: 3619212731
+    locked: 0
