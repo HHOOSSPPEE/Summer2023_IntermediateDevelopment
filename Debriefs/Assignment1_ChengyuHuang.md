@@ -14,10 +14,11 @@ But there are places to modify, the first is to start building a 2d project inst
 
 I think what I made expresses my theme of hands very well. Maybe it's a coincidence that a large part of my theme in that photo is my hands. So it was only logical that I could use this photo to express the theme of hands. At the same time I made the hands the focus of this picture, adding some personality to them, making a scene of two hands talking. By making the hands the main character, it tries to highlight the theme even more.
 
-**Scope** (How well do you feel you scoped your game?) - 4
+**Scope** (How well do you feel you scoped your game?) - 4.5
 
+What I expect is a picture with 400+ game items. Both dark and light squares are used as shade and highlight of the image. Then unity
 Generally speaking, it is in line with my expectations, that is, the strange lighting system of unity and some strange places in 3d make some shadows and highlights in my pictures do not show up, but generally speaking, it is still in line with my expectations.
-
+But the thing is, I underestimated the complexity of the lighting system in unity 3d, and this thing is far more complicated than I thought it would be. So I ended up with something in the picture that wasn't quite what I expected. But this is a very short project after all, and I don't have much time to polish this. So that's where the points are taken away.
 
 *My elaboration*
 
