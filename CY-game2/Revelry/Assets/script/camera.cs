@@ -29,6 +29,8 @@ public class camera : MonoBehaviour
         //move the camera in a smoothway
         Vector3 smoothPostion = Vector3.SmoothDamp(transform.position, desirePostion, ref velocity, smoothSpeed);
         //limit the camera
-        transform.position = new Vector3(Mathf.Clamp(smoothPostion.x, limitLeft, limitRight), Mathf.Clamp(smoothPostion.y, limitBottom, limitTop), smoothPostion.x);
+        transform.position = new Vector3(Mathf.Clamp(smoothPostion.x, limitLeft, limitRight), 
+            Mathf.Clamp(smoothPostion.y, limitBottom, limitTop), 
+            smoothPostion.z);
     }
 }
