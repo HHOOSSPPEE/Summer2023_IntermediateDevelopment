@@ -30,19 +30,27 @@ public class CameraController : MonoBehaviour
         }
         else if (p.y > topBound)
         {
+            p.y = topBound;
+            transform.position = p;
 
             Debug.Log("top");
         }
         else if (p.y < -topBound)
         {
+            p.y = -topBound;
+            transform.position = p;
             Debug.Log("bottom");
         }
         else if (p.x < leftBound)
         {
+            p.x = leftBound;
+            transform.position = p;
             Debug.Log("left");
         }
         else if (p.x > rightBound)
         {
+            p.x = rightBound;
+            transform.position = p;
             Debug.Log("right");
         }
         else
