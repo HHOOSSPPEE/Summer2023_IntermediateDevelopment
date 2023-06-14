@@ -30,6 +30,7 @@ public class Player_controller : MonoBehaviour
         {
             //idle
             playerAnimator.SetBool("moving", false);
+            playerAnimator.SetInteger("direction", 0);
         }
         else
         {
@@ -57,7 +58,7 @@ public class Player_controller : MonoBehaviour
             }
             */
 
-            if(_movement.y > 0)
+            if (_movement.y > 0)
             {
                 playerAnimator.SetInteger("direction", 1); //1 = up
             }
