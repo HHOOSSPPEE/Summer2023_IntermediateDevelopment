@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public bool directionVertical = false;
     public float movementSpeed = 1.5f;
     public Rigidbody2D _rigidbody;
     public Vector2 _movement;
@@ -16,7 +17,7 @@ public class CameraController : MonoBehaviour
 
     void Start()
     {
-        _previousPosition = _rigidbody.position;
+        _previousPosition = _rigidbody.position;        
     }
 
     // Update is called once per frame
@@ -53,19 +54,14 @@ public class CameraController : MonoBehaviour
             transform.position = p;
             Debug.Log("right");
         }
-        else
+
+        if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
         {
-            //playerAnimator.SetBool("moving", true);
-            if (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
-            {
-                //playerAnimator.SetInteger("direction", 1);
-                Debug.Log("UP");
-            }
-            else if (Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow))
-            {
-                //playerAnimator.SetInteger("direction", 2);
-                Debug.Log("Down");
-            }
+            directionVertical = false;
+        }
+        else if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow))
+        {
+            directionVertical = true;
         }
 
         _movement.x = Input.GetAxis("Horizontal");
