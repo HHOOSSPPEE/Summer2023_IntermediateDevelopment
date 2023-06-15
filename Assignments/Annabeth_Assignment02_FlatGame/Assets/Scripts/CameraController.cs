@@ -5,31 +5,19 @@ using UnityEngine;
 public class CameraController : MonoBehaviour
 {
     public bool directionVertical = false;
-    public float movementSpeed = 1.5f;
+    public float movementSpeed = 0.5f;
     public Rigidbody2D _rigidbody;
     public Vector2 _movement;
     private float topBound = 3;
     private float leftBound = -12;
     private float rightBound = 17;
-    //private float lowerBound = -10;
-    // public Animator playerAnimator;
-    public Vector2 _previousPosition;
 
-    void Start()
-    {
-        _previousPosition = _rigidbody.position;        
-    }
 
     // Update is called once per frame
     void Update()
     {
         Vector3 p = transform.position;
-        if (_rigidbody.position == _previousPosition)
-        {
-            //idle
-            //playerAnimator.SetBool("moving", false);
-        }
-        else if (p.y > topBound)
+        if (p.y > topBound)
         {
             p.y = topBound;
             transform.position = p;
@@ -66,8 +54,6 @@ public class CameraController : MonoBehaviour
 
         _movement.x = Input.GetAxis("Horizontal");
         _movement.y = Input.GetAxis("Vertical");
-
-        _previousPosition = _rigidbody.position;
     }
 
     private void FixedUpdate()
