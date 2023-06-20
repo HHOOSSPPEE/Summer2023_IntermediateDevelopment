@@ -1,0 +1,2819 @@
+fileFormatVersion: 2
+guid: f810e9ea08c45814fad73df00697d500
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 266
+        width: 31
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d88030d3d6437d4eb7121105e142a80
+      internalID: -1590217267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 266
+        width: 26
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e91273384d85948a09ddeeb6b1fd33
+      internalID: -96874829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_2
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 266
+        width: 18
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4363b052a6ddd84f9d623896770c58f
+      internalID: 111248105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 266
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5187fe54ae30ca14794cd25e9281c7b3
+      internalID: -1755677919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_4
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 266
+        width: 31
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979470a73ea74464a90921a8a0368e80
+      internalID: -617716210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 266
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b667675e173495441b8a0f391c7d9f16
+      internalID: 1340646154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_6
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 266
+        width: 18
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 511742afd1319524da901c58bbc5f853
+      internalID: -210142010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_7
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 266
+        width: 26
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9be82d649086dcb48a264bf79cc4630d
+      internalID: 1519922573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_8
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 265
+        width: 31
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c3b505f650d1b47a1fcb0eaf3d66cd
+      internalID: 546141305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_9
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 265
+        width: 31
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a59fa239ea43224f8279b983a3cbe73
+      internalID: 1111138712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_10
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 265
+        width: 42
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e264dbc43c2d4fc478aa68a148c3d3f8
+      internalID: -718992358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_11
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 266
+        width: 36
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870536843683d014f904735f998e9e57
+      internalID: 64827705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_12
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 267
+        width: 36
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b078d049c89166449d021355fb148ec
+      internalID: -207423454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_13
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 266
+        width: 42
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3026cdb5eed1d4e962a8db71ac42a0
+      internalID: -998762895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_14
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 264
+        width: 40
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0b3d5d185177224ca3c013b1264251a
+      internalID: 1643583546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_15
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 264
+        width: 40
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b1e0360b5bbcc944baa7686bf801e1a
+      internalID: -1486815323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_16
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 265
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4d7200d787c31542b1e5a1f2462f32f
+      internalID: 2083559564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_17
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 265
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0a55c8469c1c54593d8f895db2df3c
+      internalID: -1016584192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_18
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 263
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9e2d956db7bff04b97db4771df7bc03
+      internalID: -1077677371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_19
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 263
+        width: 50
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2dec14948d8054ba015bff9e1f9455
+      internalID: -2086460754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_20
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 265
+        width: 34
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55acc612dd2a0d840af23950ab697304
+      internalID: -6143562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_21
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 265
+        width: 34
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d981191620c8efc409385688d5ebe0b3
+      internalID: 1018266814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_22
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 265
+        width: 30
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8631e82796f75294e8cd5f36fae8d5b6
+      internalID: 1472071784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_23
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 265
+        width: 30
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0975e73f4856f8408216b112c10959b
+      internalID: -1863888873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_24
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 264
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634b595d95975ba46b472274be9275b9
+      internalID: -1493497022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_25
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 264
+        width: 32
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d17ba99d9dcd444e8c88b300d6bceba
+      internalID: -507264175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_26
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 264
+        width: 33
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5788061482e8234788111c698aa0e3e
+      internalID: -2069673524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_27
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 264
+        width: 33
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983a30aff7c5995468e76345f4ac07ec
+      internalID: 301400187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 176
+        width: 28
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ede74202af88249a21cef7a8af4d70
+      internalID: 1956531786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_29
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 181
+        width: 29
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e7977603c93144a810aa594d5690de
+      internalID: -819033995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_30
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 179
+        width: 29
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b61948dfde817bd4cba950a36794923c
+      internalID: 1374539032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_31
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 176
+        width: 28
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adab439bfc8d5464abd4835b175fdfae
+      internalID: -1482935594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_32
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 180
+        width: 29
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d226f5aa87110d04785b8c6ed913b3fb
+      internalID: -2053108433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_33
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 179
+        width: 29
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0199c1caceb4874f85a2162b7532d2d
+      internalID: 125085212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_34
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 178
+        width: 29
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb97e580491ce894281cc6d708735878
+      internalID: 2134242792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_35
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 177
+        width: 21
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5f2ccbc4454cbe4fb9889d2e58ad228
+      internalID: 145142896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_36
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 177
+        width: 20
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebfc88fa15d9e0249b8d73541d7d7cb7
+      internalID: 731448539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_37
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 177
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb4216fc030f3643abdcdfda14de5a5
+      internalID: -1270546583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_38
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 178
+        width: 27
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb395bde034a5784fa4346c9d3541ec0
+      internalID: 1269549690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_39
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 179
+        width: 20
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 553e3e699071dab43b97f4e6a37231fb
+      internalID: -1814086283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_40
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 180
+        width: 20
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d1237dc18b04047836320072c989a5
+      internalID: -1115178134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_41
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 179
+        width: 27
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92f8077a89c0d27418c27e35f7844e9d
+      internalID: -268371209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_42
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 178
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf1d44873a8b6449892526e1ab42450
+      internalID: 849424311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_43
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 178
+        width: 20
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a840fb9be497aa34d8a6bdfff3ea190d
+      internalID: 907494818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_44
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 178
+        width: 21
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ac3122560ec7144c8092cdf765c0f2a
+      internalID: -900114787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_45
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 179
+        width: 29
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d1bda2168ef2745b9f5b43352fa61c
+      internalID: -350512721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_46
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 175
+        width: 24
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d765695ac7df924cabeb30e96850dd4
+      internalID: -74177308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_47
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 176
+        width: 25
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 123fd98988fe6974d89dc5570245f9ad
+      internalID: 1170839644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_48
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 176
+        width: 29
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e8085958535f034aae0441a722d74fe
+      internalID: 1266785282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_49
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 178
+        width: 24
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbc00460d0341746befbdbe4d24f13e
+      internalID: -549154516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_50
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 176
+        width: 24
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8639006b74b22d748bf177658114c32c
+      internalID: -1605090521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_51
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 174
+        width: 31
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bd7519deee32674d8e87f3cde168bf9
+      internalID: -773042465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_52
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 176
+        width: 27
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0aa94a9facebef489154f3acf9d84dd
+      internalID: -1532467224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_53
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 173
+        width: 27
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b2fd58f1c0502429b233496e362025
+      internalID: -1807500830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_54
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 170
+        width: 26
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58b24e7f2ff200842ba70ec1f819ab87
+      internalID: -759125010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_55
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 175
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee8fbf0dc7c2f446a860b2d9a3f51af
+      internalID: 1619777753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_56
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 173
+        width: 27
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1718b27436642946afccbac9628ff85
+      internalID: 686465327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_57
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 170
+        width: 26
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46e7e0bac9075b84b868740beaa4417e
+      internalID: 1781351465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_58
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 227
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7df6ec422a0dbec45b0e0540b2613957
+      internalID: -1429480149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_59
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 227
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876d8b0dd0dc04348aa6eef1980e52b5
+      internalID: -1137682452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_60
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 227
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 972cc7ee192b0cf49bef68c0795cdc7b
+      internalID: 360749166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_61
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 225
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd84446fd034c65459fc6217bc68deeb
+      internalID: -912742660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_62
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 211
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb75870ac7a0c62459be5e252589c03c
+      internalID: -107755944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_63
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 211
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7783b9898070345b7d7342cf5ce6c1
+      internalID: 1222009351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_64
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 211
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9222f736cf3c4cb469094fad3b1faf89
+      internalID: 1290627668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_65
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 195
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e565266f1bf314782a6b74059bab1d
+      internalID: 1695825795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_66
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 195
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0f98b73e1ac414887654ebeeef13f9
+      internalID: 355269856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_67
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 195
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e9421e4efba464883a61f8bc1d973b
+      internalID: 1146568269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_68
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 179
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1fed8c4c391b8459cadd321c7f5ab7
+      internalID: 531748475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_69
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 179
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9c716d85104f7c408cbcb1a4d55abc0
+      internalID: 1464522126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_70
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 179
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08442dafcbf713f498f1ea978b62fd4d
+      internalID: -1518289415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_71
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 88
+        width: 26
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f7c50ceacf08e4daf1ef97d64c0340
+      internalID: 13009174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_72
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 90
+        width: 24
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f132d4771ccbed4888dae612a81edcc
+      internalID: 832853258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_73
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 88
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32f62449eb22fb648a755b7b2d04a3c7
+      internalID: -1748453253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_74
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 89
+        width: 22
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212697c30a12231479587fb8f902ff3b
+      internalID: -963356082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_75
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 87
+        width: 26
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d08ea21825923c4c82da7a0a1139b7b
+      internalID: -259429410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_76
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 85
+        width: 29
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d6df3fb6f302743ba4ec2c876e3ac0
+      internalID: 1511573848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_77
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 86
+        width: 29
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59f97c11738d7d48ba6097451f59370
+      internalID: -1433010366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_78
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 88
+        width: 26
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5951ff113c7f94e9848e0d3f1f911e
+      internalID: -1311290972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_79
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 90
+        width: 22
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba23f1052707a1c49a2a9d9fbbccfbe1
+      internalID: 182377707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_80
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 89
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ffb162f2eb8903468ba88c5db214067
+      internalID: 1650405273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_81
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 91
+        width: 24
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12179aba9dd1d9b47b95c0b99d2c3953
+      internalID: -662070290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_82
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 89
+        width: 26
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfde1f06ae898fd40ac140380bb88849
+      internalID: -2126808837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_83
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 89
+        width: 28
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9432f486164f3244a4607f983d91233
+      internalID: -1822755815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_84
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 92
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59407b4d099c3f943b0b663fd8b1288e
+      internalID: -1505944789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_85
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 89
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7505b606057017a4fa96fa8f1b2dcaf1
+      internalID: -730171999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_86
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 89
+        width: 29
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e8abdc2c13864384a65de200593d4
+      internalID: -931836257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_87
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 90
+        width: 43
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9b2d0cbd5cd4684daa6899b8c928861
+      internalID: -2053181587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_88
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 87
+        width: 28
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56448e9ce7847949b4d30caeda32dbb
+      internalID: 1638630273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_89
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 87
+        width: 31
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f4f3f94c04a2a442aa8a6ca17270012
+      internalID: 1376853070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_90
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 92
+        width: 49
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a964d919fbc9b41b34f66bf19d99ec
+      internalID: -776216740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_91
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 89
+        width: 28
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e174352d9cb55674597af3c00da611d9
+      internalID: 1285874638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_92
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 86
+        width: 30
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74dab8d7d842d974892d08c706313b41
+      internalID: 1823285550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_93
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 93
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdba850da3642b45925c233527daa8c
+      internalID: -1568896481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_94
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 87
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 272db0049178cca46b84d8147910a924
+      internalID: -1764068966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_95
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 86
+        width: 30
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d468bc5ab22abb44b17e1f40a18e354
+      internalID: 1416042933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_96
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 93
+        width: 31
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a4dd19b8df2a754382f8fec26b452bf
+      internalID: -997353012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_97
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 87
+        width: 31
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d62282b6b596654fbf864ee0a4cd6ca
+      internalID: 1998261162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 38
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed0da9a4c79ea134cbd13bf4b59e30ff
+      internalID: 546528941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_99
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 6
+        width: 33
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489b7884f5002fb409d8de4bb9a87b3c
+      internalID: -183691800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_100
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 3
+        width: 38
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb0524fad6d31540b1229b63f048760
+      internalID: 103372069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_101
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 7
+        width: 38
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b748687550980f84e8fa69900882acfe
+      internalID: 62299724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_102
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3
+        width: 31
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb1484c1649e6e4e9447e254c836543
+      internalID: 739836747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_103
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 38
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5524548b7a1097d43b3a0e3b2cfbbdbf
+      internalID: -1035994197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_104
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 6
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af8828cf5ac2d5f4c9f908c25e70695a
+      internalID: 86836654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_105
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 3
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d77a0f049dd0b554d8e09ed2103d9b55
+      internalID: -587996504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_106
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3
+        width: 37
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae84371846d50d4e8e2fd7f6f5182bd
+      internalID: 1704656770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_107
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 5
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f67afb29e28e6428a15f7e0e38bde0
+      internalID: 1487660359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_108
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4bb810360021174ab21c9e07a7af9bf
+      internalID: 78804376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_109
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 2
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e96ea204f5c51949b1d023ecc08efb2
+      internalID: -718229244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_110
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 2
+        width: 41
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4cb734bf4f6cb74da58aab168b8b9b9
+      internalID: -1126097998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_111
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 2
+        width: 34
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f186fe007e851842b072ec93e5a8790
+      internalID: -529731415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_112
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 5
+        width: 29
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df894edced9a15a4f8b552465341a6c2
+      internalID: 1392260593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_113
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 3
+        width: 37
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c3ba17870ab52449b321eefa748dca
+      internalID: 1312502274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_114
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 3
+        width: 27
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 421d3c24a8f38d64bb697b77d067668d
+      internalID: -1803376172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_115
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 6
+        width: 34
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4a5b8c9fb970845bfca68a113ed3b9
+      internalID: -271897515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_116
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1
+        width: 30
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5147b7259a66045b3131fefc0e38d0
+      internalID: 1731960999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_117
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 3
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54841f1ae09b01b43a5e0ea7d03fc406
+      internalID: 2090660973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_118
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 7
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 195da13524e993945823fb4b1f80517c
+      internalID: -1286596113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_119
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 1
+        width: 30
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ea2f375ffd2ea84690d55fed40769ac
+      internalID: 1320655592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_120
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 3
+        width: 32
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d78721f9e27fc8440a55f116c70e76db
+      internalID: 1781360979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_Phoenix Wright_121
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 7
+        width: 32
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b7061dcd87a68a48ae0557430428044
+      internalID: 810782234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_Phoenix Wright_0: -1590217267
+      spr_Phoenix Wright_1: -96874829
+      spr_Phoenix Wright_10: -718992358
+      spr_Phoenix Wright_100: 103372069
+      spr_Phoenix Wright_101: 62299724
+      spr_Phoenix Wright_102: 739836747
+      spr_Phoenix Wright_103: -1035994197
+      spr_Phoenix Wright_104: 86836654
+      spr_Phoenix Wright_105: -587996504
+      spr_Phoenix Wright_106: 1704656770
+      spr_Phoenix Wright_107: 1487660359
+      spr_Phoenix Wright_108: 78804376
+      spr_Phoenix Wright_109: -718229244
+      spr_Phoenix Wright_11: 64827705
+      spr_Phoenix Wright_110: -1126097998
+      spr_Phoenix Wright_111: -529731415
+      spr_Phoenix Wright_112: 1392260593
+      spr_Phoenix Wright_113: 1312502274
+      spr_Phoenix Wright_114: -1803376172
+      spr_Phoenix Wright_115: -271897515
+      spr_Phoenix Wright_116: 1731960999
+      spr_Phoenix Wright_117: 2090660973
+      spr_Phoenix Wright_118: -1286596113
+      spr_Phoenix Wright_119: 1320655592
+      spr_Phoenix Wright_12: -207423454
+      spr_Phoenix Wright_120: 1781360979
+      spr_Phoenix Wright_121: 810782234
+      spr_Phoenix Wright_13: -998762895
+      spr_Phoenix Wright_14: 1643583546
+      spr_Phoenix Wright_15: -1486815323
+      spr_Phoenix Wright_16: 2083559564
+      spr_Phoenix Wright_17: -1016584192
+      spr_Phoenix Wright_18: -1077677371
+      spr_Phoenix Wright_19: -2086460754
+      spr_Phoenix Wright_2: 111248105
+      spr_Phoenix Wright_20: -6143562
+      spr_Phoenix Wright_21: 1018266814
+      spr_Phoenix Wright_22: 1472071784
+      spr_Phoenix Wright_23: -1863888873
+      spr_Phoenix Wright_24: -1493497022
+      spr_Phoenix Wright_25: -507264175
+      spr_Phoenix Wright_26: -2069673524
+      spr_Phoenix Wright_27: 301400187
+      spr_Phoenix Wright_28: 1956531786
+      spr_Phoenix Wright_29: -819033995
+      spr_Phoenix Wright_3: -1755677919
+      spr_Phoenix Wright_30: 1374539032
+      spr_Phoenix Wright_31: -1482935594
+      spr_Phoenix Wright_32: -2053108433
+      spr_Phoenix Wright_33: 125085212
+      spr_Phoenix Wright_34: 2134242792
+      spr_Phoenix Wright_35: 145142896
+      spr_Phoenix Wright_36: 731448539
+      spr_Phoenix Wright_37: -1270546583
+      spr_Phoenix Wright_38: 1269549690
+      spr_Phoenix Wright_39: -1814086283
+      spr_Phoenix Wright_4: -617716210
+      spr_Phoenix Wright_40: -1115178134
+      spr_Phoenix Wright_41: -268371209
+      spr_Phoenix Wright_42: 849424311
+      spr_Phoenix Wright_43: 907494818
+      spr_Phoenix Wright_44: -900114787
+      spr_Phoenix Wright_45: -350512721
+      spr_Phoenix Wright_46: -74177308
+      spr_Phoenix Wright_47: 1170839644
+      spr_Phoenix Wright_48: 1266785282
+      spr_Phoenix Wright_49: -549154516
+      spr_Phoenix Wright_5: 1340646154
+      spr_Phoenix Wright_50: -1605090521
+      spr_Phoenix Wright_51: -773042465
+      spr_Phoenix Wright_52: -1532467224
+      spr_Phoenix Wright_53: -1807500830
+      spr_Phoenix Wright_54: -759125010
+      spr_Phoenix Wright_55: 1619777753
+      spr_Phoenix Wright_56: 686465327
+      spr_Phoenix Wright_57: 1781351465
+      spr_Phoenix Wright_58: -1429480149
+      spr_Phoenix Wright_59: -1137682452
+      spr_Phoenix Wright_6: -210142010
+      spr_Phoenix Wright_60: 360749166
+      spr_Phoenix Wright_61: -912742660
+      spr_Phoenix Wright_62: -107755944
+      spr_Phoenix Wright_63: 1222009351
+      spr_Phoenix Wright_64: 1290627668
+      spr_Phoenix Wright_65: 1695825795
+      spr_Phoenix Wright_66: 355269856
+      spr_Phoenix Wright_67: 1146568269
+      spr_Phoenix Wright_68: 531748475
+      spr_Phoenix Wright_69: 1464522126
+      spr_Phoenix Wright_7: 1519922573
+      spr_Phoenix Wright_70: -1518289415
+      spr_Phoenix Wright_71: 13009174
+      spr_Phoenix Wright_72: 832853258
+      spr_Phoenix Wright_73: -1748453253
+      spr_Phoenix Wright_74: -963356082
+      spr_Phoenix Wright_75: -259429410
+      spr_Phoenix Wright_76: 1511573848
+      spr_Phoenix Wright_77: -1433010366
+      spr_Phoenix Wright_78: -1311290972
+      spr_Phoenix Wright_79: 182377707
+      spr_Phoenix Wright_8: 546141305
+      spr_Phoenix Wright_80: 1650405273
+      spr_Phoenix Wright_81: -662070290
+      spr_Phoenix Wright_82: -2126808837
+      spr_Phoenix Wright_83: -1822755815
+      spr_Phoenix Wright_84: -1505944789
+      spr_Phoenix Wright_85: -730171999
+      spr_Phoenix Wright_86: -931836257
+      spr_Phoenix Wright_87: -2053181587
+      spr_Phoenix Wright_88: 1638630273
+      spr_Phoenix Wright_89: 1376853070
+      spr_Phoenix Wright_9: 1111138712
+      spr_Phoenix Wright_90: -776216740
+      spr_Phoenix Wright_91: 1285874638
+      spr_Phoenix Wright_92: 1823285550
+      spr_Phoenix Wright_93: -1568896481
+      spr_Phoenix Wright_94: -1764068966
+      spr_Phoenix Wright_95: 1416042933
+      spr_Phoenix Wright_96: -997353012
+      spr_Phoenix Wright_97: 1998261162
+      spr_Phoenix Wright_98: 546528941
+      spr_Phoenix Wright_99: -183691800
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
