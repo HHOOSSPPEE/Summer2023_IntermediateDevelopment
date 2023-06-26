@@ -22,6 +22,7 @@ public class NumberChanger : MonoBehaviour
 
     public void numberchanger()
     {
+        //change the cost 
         cost = cost + 49.99f;
         number.text = cost.ToString() + "$";
     }

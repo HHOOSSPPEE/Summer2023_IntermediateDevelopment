@@ -15,18 +15,21 @@ public class reset : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //random the range of the angle for every card
          speed = Random.Range(1f, 2f);
     }
 
     // Update is called once per frame
     void Update()
     {   
+        //make the card rotate as time goes
         angle = Time.time * speed;
         transform.eulerAngles = Vector3.forward * angle * 15;
     }
 
     public void Reset()
     {
+        //reset the card location and random their x
         rigidbody.position = new Vector2(Random.Range(25f, -25f), Random.Range(10f, 20f));
         rigidbody.velocity = new Vector2(0.1f, 1);
         
