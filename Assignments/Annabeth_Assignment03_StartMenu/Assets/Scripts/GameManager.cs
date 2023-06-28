@@ -14,14 +14,28 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
+    //private void Awake()
+    //{
+    //    int numGameManager = FindObjectsOfType<GameManager>().Length;
+    //    if (numGameManager != 1)
+    //    {
+    //        Destroy(this.gameObject);
+    //    }
+    //    else
+    //    {
+    //        DontDestroyOnLoad(gameObject);
+    //    }
+    //}
 
     public void SceneChanger(string sceneName)
     {
+        StartCoroutine(DelaySceneLoad(sceneName));
+        //SceneManager.LoadScene(sceneName);
+    }
+
+    IEnumerator DelaySceneLoad(string sceneName)
+    {
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(sceneName);
     }
 }

@@ -5,21 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class SceneChanger : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public void SceneChange(string sceneName)
     {
-   
-
+        StartCoroutine(DelaySceneLoad(sceneName));
+        //SceneManager.LoadScene(sceneName);
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator DelaySceneLoad(string sceneName)
     {
-        
-    }
-
-    public void SceneChangerBack(string sceneName)
-    {
+        yield return new WaitForSeconds(1f);
         SceneManager.LoadScene(sceneName);
     }
 }

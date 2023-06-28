@@ -14,7 +14,8 @@ public class SEManager : MonoBehaviour
     void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
-        volume = gameManager.SEVolume;
+        //volume = gameManager.SEVolume;
+        volume = 0.5f;
     }
 
     // Update is called once per frame
@@ -23,4 +24,17 @@ public class SEManager : MonoBehaviour
         gameManager.SEVolume = volume;
         sceneSE.volume = gameManager.SEVolume;
     }
+
+    //private void Awake()
+    //{
+    //    int numSEManager = FindObjectsOfType<SEManager>().Length;
+    //    if (numSEManager != 1)
+    //    {
+    //        Destroy(this.gameObject);
+    //    }
+    //    else
+    //    {
+    //        DontDestroyOnLoad(gameObject);
+    //    }
+    //}
 }

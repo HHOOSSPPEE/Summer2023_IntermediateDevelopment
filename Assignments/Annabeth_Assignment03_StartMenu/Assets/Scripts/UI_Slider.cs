@@ -9,6 +9,7 @@ public class UI_Slider : MonoBehaviour
     public MusicManager musicManager;
     public Slider slider;
 
+
     public void ChangeVolume()
     {
         musicManager.volume = slider.value;
