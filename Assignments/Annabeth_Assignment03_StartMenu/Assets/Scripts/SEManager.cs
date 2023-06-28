@@ -24,17 +24,4 @@ public class SEManager : MonoBehaviour
         gameManager.SEVolume = volume;
         sceneSE.volume = gameManager.SEVolume;
     }
-
-    //private void Awake()
-    //{
-    //    int numSEManager = FindObjectsOfType<SEManager>().Length;
-    //    if (numSEManager != 1)
-    //    {
-    //        Destroy(this.gameObject);
-    //    }
-    //    else
-    //    {
-    //        DontDestroyOnLoad(gameObject);
-    //    }
-    //}
 }

@@ -14,19 +14,6 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
 
-    //private void Awake()
-    //{
-    //    int numGameManager = FindObjectsOfType<GameManager>().Length;
-    //    if (numGameManager != 1)
-    //    {
-    //        Destroy(this.gameObject);
-    //    }
-    //    else
-    //    {
-    //        DontDestroyOnLoad(gameObject);
-    //    }
-    //}
-
     public void SceneChanger(string sceneName)
     {
         StartCoroutine(DelaySceneLoad(sceneName));

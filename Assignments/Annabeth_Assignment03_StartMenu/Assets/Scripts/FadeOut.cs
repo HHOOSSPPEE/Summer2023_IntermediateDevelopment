@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class FadeOut : MonoBehaviour
 {
+    //credit to 
+    //Alexander Zotov (2017, Aug 9, 2017). How to fade out or fade in a game object with coroutine in Unity game | Unity 2D tutorial.
+    //YouTube.https://youtu.be/oNz4I0RfsEg
+
     SpriteRenderer spriteRenderer;
-    // Start is called before the first frame update
 
     void Start()
     {
@@ -26,11 +29,5 @@ public class FadeOut : MonoBehaviour
     public void StartFading()
     {
         StartCoroutine("ImageFadeOut");
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
