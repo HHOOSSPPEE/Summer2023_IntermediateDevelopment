@@ -5,6 +5,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float movementSpeed = 1.5f;
+    public int playerHealth = 100;
+    public bool canTakeDamage = true;
 
     public Rigidbody2D _rigidbody;
     public Vector2 _movement;
