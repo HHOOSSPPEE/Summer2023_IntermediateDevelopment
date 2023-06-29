@@ -11,7 +11,7 @@ public class UI_Sliders : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        //music = GameObject.FindGameObjectWithTag("MusicManager").GetComponent<GameManager>();
     }
 
     public void ChangeVolume()
