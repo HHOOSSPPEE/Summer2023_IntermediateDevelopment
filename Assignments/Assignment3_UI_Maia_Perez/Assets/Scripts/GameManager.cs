@@ -2,11 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
-public class GameManager : MonoBehaviour
+public class TMP_Text : MonoBehaviour
 {
 
     public float musicVolume;
+
+    public TMP_InputField inputField;
+    public string playerName;
 
 
     private void Start()
@@ -18,5 +22,9 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(sceneName);
    
+    }
+    public void SetName()
+    {
+        playerName = inputField.text;
     }
 }

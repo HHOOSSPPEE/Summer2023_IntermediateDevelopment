@@ -1,16 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
-using TMPro;
 
-public class CharacterManager : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    private TMP_Text playerName;
+    public int playerHealth;
+    public bool canTakeDamage = true;
+
     // Start is called before the first frame update
     void Start()
     {
-        playerName = GameObject.FindGameObjectWithTag("GameController").GetComponent<TMP_Text>();
+        
     }
 
     // Update is called once per frame
