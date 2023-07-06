@@ -1,5 +1,5 @@
 ### **2023 Spring** - Henk F
-### *Assignment 1* - Unity Scene
+### *Assignment 2* - Flat Game
 Link to game: (https://henkfan.itch.io/echo)
 
 
