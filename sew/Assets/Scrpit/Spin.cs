@@ -17,6 +17,7 @@ public class Spin : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //spin the gameObject
         angle = Time.time * speed;
         transform.eulerAngles = Vector3.forward * angle * mult;
     }

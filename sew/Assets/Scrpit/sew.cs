@@ -21,7 +21,7 @@ public class sew : MonoBehaviour
     {
         if (isGrey == true)
         {
-          
+            //change the gameobject into trigger and change it's color
             this.gameObject.GetComponent<Renderer>().material.color = Color.gray;
             this.gameObject.GetComponent<BoxCollider2D>().isTrigger = true;
             transform.position = new Vector3(x, y, 0);
@@ -33,7 +33,7 @@ public class sew : MonoBehaviour
         }
         else
         {
-            
+            //change back
             this.gameObject.GetComponent<Renderer>().material.color = Color.white;
             this.gameObject.GetComponent<BoxCollider2D>().isTrigger = false;
 
