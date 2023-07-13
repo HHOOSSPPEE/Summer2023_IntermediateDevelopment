@@ -49,8 +49,9 @@ public class RotateAround_L : MonoBehaviour
         BC.sharedMaterial.bounciness = 2;
         yield return new WaitForSeconds(1);
         RotateBack = true;
-        BC.sharedMaterial.bounciness = 0.5f;
+        
         yield return new WaitForSeconds(0.15f);
+        BC.sharedMaterial.bounciness = 0.5f;
         RotateBack = false;
         lockRotate = false;
     }

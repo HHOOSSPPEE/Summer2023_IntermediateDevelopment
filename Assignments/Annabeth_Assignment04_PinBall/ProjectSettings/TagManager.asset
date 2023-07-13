@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Monkey
+  - Objects
   layers:
   - Default
   - TransparentFX
@@ -41,9 +43,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: UI
-    uniqueID: 3652787073
-    locked: 0
   - name: Game
     uniqueID: 88731043
+    locked: 0
+  - name: UI
+    uniqueID: 3652787073
     locked: 0

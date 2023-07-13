@@ -4,24 +4,36 @@ using UnityEngine;
 
 public class NewLevel : MonoBehaviour
 {
-    GameObject target;
+    //GameObject target;
     public bool activate;
     // Start is called before the first frame update
     void Start()
     {
         activate = false;
-        Vector3 p = transform.position;
+        //Vector3 p = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.y >= 2.35 && transform.position.y <= 2.45 && transform.position.x >= 2.7 && transform.position.x <= 3.6)
+        //Debug.Log(transform.position.y);
+        if (transform.position.y >= 0.48 && transform.position.y <= 0.5)
         {
-            transform.position = new Vector3(transform.position.x, 2.52f, 0);
+            
+            transform.position = new Vector3(0, 0.7f, 0);
+            activate = true;
+        }else if (transform.position.y >= 3.1 && transform.position.y <= 3.2)
+        {
+            transform.position = new Vector3(0, 3.4f, 0);
             activate = true;
         }
-        
 
     }
+
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    transform.position = new Vector3(3.185f, 2.52f, 0);
+    //}
+
+
 }
