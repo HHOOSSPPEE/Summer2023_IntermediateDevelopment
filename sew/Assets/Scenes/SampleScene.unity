@@ -1380,7 +1380,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 17c5c6d5a045c9e47894ad7df39d7ff7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b8bf7539ad7c7334187b7b92204efc68, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1424,7 +1424,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   manger: {fileID: 1879293289}
-  MoneyGain: -1
+  MoneyGain: -2
   moodGain: 1
 --- !u!61 &950150554
 BoxCollider2D:
@@ -3002,7 +3002,7 @@ PrefabInstance:
       objectReference: {fileID: 1879293289}
     - target: {fileID: 584152697561190269, guid: 1ba02ecb93e2ab745a4db03efceed4e6, type: 3}
       propertyPath: moodGain
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1ba02ecb93e2ab745a4db03efceed4e6, type: 3}
@@ -3334,8 +3334,8 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1879293289}
     - target: {fileID: 5097279107112738396, guid: 22e97a1f769f4cb4d85958c8f9d83a64, type: 3}
-      propertyPath: moodGain
-      value: 1
+      propertyPath: MoneyGain
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 5097279107112738397, guid: 22e97a1f769f4cb4d85958c8f9d83a64, type: 3}
       propertyPath: m_Pivot.x
