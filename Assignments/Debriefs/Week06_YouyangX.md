@@ -1,5 +1,5 @@
 ### **2023 Spring** - YouyangX
-### *Assignment 02* - Welcome to Court
+### *Assignment 04* - Bonic Lover
 Link to game: https://youyangxu.itch.io/assignment03
 
 ## **Debrief**
