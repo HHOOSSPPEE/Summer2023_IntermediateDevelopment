@@ -74,7 +74,6 @@ public class Player : MonoBehaviour
 
         _movement.x = Input.GetAxisRaw("Horizontal");
         _movement.y = Input.GetAxisRaw("Vertical");
-
         _previousPosition = _rigidbody.position;
     }
 
