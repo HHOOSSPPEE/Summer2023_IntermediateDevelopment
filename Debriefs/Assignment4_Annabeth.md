@@ -16,7 +16,6 @@ In assignment 4, I made a pin monkey game that somewhat resembles a pinball game
 
 
 
-
 Please do not answer these questions individually, but include it in a paragraph format.
 
 ## **Self Evaluation**
