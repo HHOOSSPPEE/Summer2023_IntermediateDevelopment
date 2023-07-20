@@ -1,5 +1,5 @@
 ### **2023 Spring** - YouyangX
-### *Assignment 03* - Welcome to Court
+### *Assignment 02* - Welcome to Court
 Link to game: https://youyangxu.itch.io/assignment03
 
 ## **Debrief**
