@@ -1,5 +1,5 @@
 ### **2023 Spring** - YouyangX
-### *Assignment 04* - Bonic Lover
+### *Assignment 03* - Bonic Lover
 Link to game: https://youyangxu.itch.io/assignment03
 
 ## **Debrief**
