@@ -1,5 +1,5 @@
 ### **2023 Spring** - YouyangX
-### *Assignment 07* - Bouncing!
+### *Assignment 04* - Bouncing!
 Link to game: https://youyangxu.itch.io/assignment03
 
 ## **Debrief**
