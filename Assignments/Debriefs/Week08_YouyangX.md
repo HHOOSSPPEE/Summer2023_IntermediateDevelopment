@@ -1,6 +1,6 @@
 ### **2023 Spring** - YouyangX
 ### *Assignment 04* - Just Eat
-Link to game: [https://youyangxu.itch.io/assignment03](https://youyangxu.itch.io/week07-just-eat)
+Link to game: https://youyangxu.itch.io/week07-just-eat
 
 ## **Debrief**
 In at least 400 words, write a debrief. You must write a reflection on your assignment. In addition to specific requirements stated for the assignment, you must answer the following:
