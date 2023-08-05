@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b476120ea72c6d14aafbe697f8ee54c0, type: 3}
+  m_Name: 300_Skitty
+  m_EditorClassIdentifier: 
+  pokemonName: Skitty
+  pokedex: 300
+  pokemonSprite:
+  - {fileID: 1132917915, guid: d3743a5eb97420c4fabebd8dfa7d7ebb, type: 3}
+  - {fileID: -1899580863, guid: d3743a5eb97420c4fabebd8dfa7d7ebb, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  baseStats: 000000000000000000000000000000000000000000000000

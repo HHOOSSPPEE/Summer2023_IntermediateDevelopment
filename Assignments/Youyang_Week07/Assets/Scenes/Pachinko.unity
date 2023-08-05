@@ -1271,7 +1271,8 @@ GameObject:
   m_Component:
   - component: {fileID: 910871583}
   - component: {fileID: 910871584}
-  - component: {fileID: 910871585}
+  - component: {fileID: 910871586}
+  - component: {fileID: 910871587}
   m_Layer: 0
   m_Name: Square
   m_TagString: Untagged
@@ -1346,9 +1347,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!249 &910871585
-AreaEffector2D:
-  serializedVersion: 2
+--- !u!50 &910871586
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910871582}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!253 &910871587
+BuoyancyEffector2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1359,13 +1380,13 @@ AreaEffector2D:
   m_ColliderMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_UseGlobalAngle: 0
-  m_ForceAngle: 0
-  m_ForceMagnitude: 0.5
-  m_ForceVariation: 0
-  m_ForceTarget: 0
-  m_Drag: 0
-  m_AngularDrag: 0
+  m_SurfaceLevel: 0
+  m_Density: 2
+  m_LinearDrag: 5
+  m_AngularDrag: 5
+  m_FlowAngle: 0
+  m_FlowMagnitude: 0
+  m_FlowVariation: 0
 --- !u!1 &911910870
 GameObject:
   m_ObjectHideFlags: 0
@@ -1610,6 +1631,7 @@ GameObject:
   - component: {fileID: 1106296527}
   - component: {fileID: 1106296529}
   - component: {fileID: 1106296528}
+  - component: {fileID: 1106296530}
   m_Layer: 0
   m_Name: Floor
   m_TagString: Untagged
@@ -1748,6 +1770,26 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!249 &1106296530
+AreaEffector2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106296524}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_UseGlobalAngle: 0
+  m_ForceAngle: 0
+  m_ForceMagnitude: 10
+  m_ForceVariation: 0
+  m_ForceTarget: 0
+  m_Drag: 0
+  m_AngularDrag: 0
 --- !u!1 &1232831169
 GameObject:
   m_ObjectHideFlags: 0
@@ -2278,7 +2320,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1714967524}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.64, y: 0.06, z: 0}
+  m_LocalPosition: {x: -0.64, y: 0.06, z: -1.38}
   m_LocalScale: {x: 0.27054334, y: 0.27054334, z: 0.27054334}
   m_ConstrainProportionsScale: 0
   m_Children: []
