@@ -15,7 +15,7 @@ public class thoughtBubbleFollow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        offset.y = 2;
+
         //transform.position = new Vector3(-3.5f, 5, offset.z);
     }
 
