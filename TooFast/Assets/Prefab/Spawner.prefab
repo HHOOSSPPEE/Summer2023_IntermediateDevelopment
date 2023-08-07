@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7040677485112116231
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7040677485112116229}
+  - component: {fileID: 7040677485112116228}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7040677485112116229
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040677485112116231}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.07, y: 15.74, z: -0.16381726}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7040677485112116228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7040677485112116231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a48e50d31e2ffa4591d3dce7d6f1a0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy1: {fileID: 1227960776775786994, guid: e02d36874b5b66940b86189d4026396d, type: 3}
+  enemy2: {fileID: 6455156552092824301, guid: af84d08aac11e5f43a936707761c165a, type: 3}
+  enemy3: {fileID: 1212753692853760716, guid: 7662081a25b52554696bff6eb9a83391, type: 3}
+  enemy4: {fileID: 3400609676438990408, guid: 6f6e866421bb159469e37c706811c2e1, type: 3}
+  powerUp1: {fileID: 258028551236876130, guid: 8785a44b9583b3c4ca4f3cab14eb3a18, type: 3}
+  powerUp2: {fileID: 1688004094545454254, guid: 42b9b8fecf3ec7a45a3e5456bff991b2, type: 3}
+  powerUp3: {fileID: 8932430358766447823, guid: 26604e77731ec1143a375c894c69eacf, type: 3}
+  spawnrate: 1000
+  speedManger: {fileID: 0}
