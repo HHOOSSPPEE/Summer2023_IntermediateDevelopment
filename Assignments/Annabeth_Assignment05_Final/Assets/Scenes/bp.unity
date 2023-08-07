@@ -10005,6 +10005,7 @@ GameObject:
   - component: {fileID: 457425266}
   - component: {fileID: 457425268}
   - component: {fileID: 457425267}
+  - component: {fileID: 457425269}
   m_Layer: 5
   m_Name: barFill
   m_TagString: Untagged
@@ -10054,10 +10055,10 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 57738563862534da1901e308a3323448, type: 3}
   m_Type: 3
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 1
+  m_FillAmount: 0
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
@@ -10070,6 +10071,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 457425265}
   m_CullTransparentMesh: 1
+--- !u!114 &457425269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457425265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9efca508a70be4335aead8d9092d9499, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 0}
+  maxEnergy: 2
+  energy: 0
+  timesUpNext: 0
+  GM: {fileID: 1232789483}
 --- !u!1 &470760253
 GameObject:
   m_ObjectHideFlags: 0
@@ -20699,7 +20717,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43.5663, y: -110.60991}
+  m_AnchoredPosition: {x: -43.5663, y: -110.6099}
   m_SizeDelta: {x: 0.1124, y: 0.7014}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &822688140
@@ -20724,7 +20742,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 2965c07fd03b947ed8bdc54a923cc3ab, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -23437,6 +23455,9 @@ MonoBehaviour:
   closetO: {fileID: 0}
   diningTableO: {fileID: 0}
   tableO: {fileID: 0}
+  ProgressBar: {fileID: 70338569}
+  Bar: {fileID: 457425265}
+  colliding: 0
 --- !u!1001 &1117022722
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27140,6 +27161,9 @@ MonoBehaviour:
   closetO: {fileID: 0}
   diningTableO: {fileID: 0}
   tableO: {fileID: 0}
+  ProgressBar: {fileID: 70338569}
+  Bar: {fileID: 457425265}
+  colliding: 0
 --- !u!1 &1360034517
 GameObject:
   m_ObjectHideFlags: 0

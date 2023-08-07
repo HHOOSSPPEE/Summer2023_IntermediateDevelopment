@@ -15,7 +15,7 @@ TagManager:
   - UI
   - wall
   - CollisionObjects
-  - 
+  - Bar
   - 
   - 
   - 
@@ -42,4 +42,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Bar
+    uniqueID: 3315518603
     locked: 0
