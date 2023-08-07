@@ -6,7 +6,7 @@ public class backgroundmoving : MonoBehaviour
 {
     public float speed = 4f;
     private Vector3 StartPos;
-
+    public float speeddown; 
     public SpeedManger speedManger;
 
     private void Awake()
@@ -23,7 +23,11 @@ public class backgroundmoving : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(translation:Vector3.down*speed*Time.deltaTime * speedManger.Stage);
+        if (speeddown <= 5)
+        {
+            speeddown = speedManger.Speedmult * 10 + 1;
+        }
+        transform.Translate(translation:Vector3.down*speed*Time.deltaTime * speeddown);
         if (transform.position.y < -55)
         {
             transform.position = StartPos;
