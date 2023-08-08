@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UIElements;
 
 public class Playermove : MonoBehaviour
 {
@@ -12,6 +13,9 @@ public class Playermove : MonoBehaviour
     private Rigidbody2D rb;
     public SpeedManger SpeedManger;
     public Animator animator;
+    public GameObject secondWind;
+
+    public scoresaver scoresaver;
 
     public int life = 15;
 
@@ -25,6 +29,9 @@ public class Playermove : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         SpeedManger = GameObject.FindObjectOfType<SpeedManger>().GetComponent<SpeedManger>();
         animator = GetComponent<Animator>();
+        scoresaver = GameObject.FindGameObjectWithTag("Score").GetComponent<scoresaver>();
+        scoresaver.score = 0;
+
     }
 
     private void OnMovement(InputValue value)
@@ -60,6 +67,11 @@ public class Playermove : MonoBehaviour
         {
             animator.SetBool("Right", false);
             animator.SetBool("Left", false);
+        }
+
+        if (life <= 0)
+        { 
+            secondWind.SetActive(true);
         }
     }
 

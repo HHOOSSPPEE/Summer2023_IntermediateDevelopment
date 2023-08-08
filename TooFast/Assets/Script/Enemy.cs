@@ -39,11 +39,12 @@ public class Enemy : MonoBehaviour
     public GameObject follow_bullet;
     
 
-    [Header("RB")]
+    [Header("RB and else")]
     public Rigidbody2D Rigidbody;
+    public scoresaver scoresaver;
 
-   
-
+    [Header("SW")]
+    public SecondWind secondWind;
     private void Awake()
     {
         sound = GetComponent<AudioSource>();
@@ -52,6 +53,8 @@ public class Enemy : MonoBehaviour
         SpeedManger = GameObject.FindObjectOfType<SpeedManger>().GetComponent<SpeedManger>();
         explosion = GameObject.FindGameObjectWithTag("SoundM").GetComponent<AudioSource>();
         shakeffect = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<shake>();
+        scoresaver = GameObject.FindGameObjectWithTag("Score").GetComponent <scoresaver>();
+        secondWind = GameObject.FindGameObjectWithTag("SW").GetComponent<SecondWind>();
     }
 
     // Start is called before the first frame update
@@ -127,6 +130,8 @@ public class Enemy : MonoBehaviour
             Instantiate(explosionEffect, transform.position, transform.rotation);
             shakeffect.start = true;
             SpeedManger.SpeedUp();
+            scoresaver.score += 100 * (SpeedManger.Speedmult + 1f);
+            secondWind.Still();
             Destroy(gameObject);
 
         }
