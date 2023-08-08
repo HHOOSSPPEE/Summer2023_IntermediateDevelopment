@@ -20,6 +20,9 @@ public class WayPointsManager : MonoBehaviour
     public int Nick;
     public int roomNum;
     public int roomNum_temp;
+    public int roomNum_temp_R;
+    public int roomNum_temp_N;
+    public bool change;
 
     public int currentRoom;
 
@@ -39,6 +42,8 @@ public class WayPointsManager : MonoBehaviour
         finishRoom = true;
         roomNum = -1;
         roomNum_temp = -1 ;
+        roomNum_temp_N = -1;
+        roomNum_temp_R = -1;
         currentRoom = -1;
 
 
@@ -47,7 +52,9 @@ public class WayPointsManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Rick = GameObject.Find("Rick").GetComponent<Collisions>().KnockBarrelFrom;
+        Nick = GameObject.Find("Nick").GetComponent<Collisions>().KnockBarrelFrom;
+        change = GameObject.Find("Nick").GetComponent<Collisions>().changed;
         TourLoop();
     }
 
@@ -59,13 +66,10 @@ public class WayPointsManager : MonoBehaviour
             {
                 place = roomNum_temp;
                 roomNum = -1;
-                //print("a");
             }
             else
             {
                 place = Random.Range(0, Places.Count);
-                
-                //print("b");
             }
             finishRoom = false;            
         }
@@ -75,12 +79,28 @@ public class WayPointsManager : MonoBehaviour
 
     public void Tour(GameObject person, float speed, int place)
     {
-        Rick = GameObject.Find("Rick").GetComponent<Collisions>().KnockBarrelFrom;
-        Nick = GameObject.Find("Nick").GetComponent<Collisions>().KnockBarrelFrom;
-        
-        if (roomNum == -1 && (Rick != roomNum_temp && Rick != -1 || Nick != roomNum_temp && Nick != -1))
+        //now
+        //print("Rick: " + roomNum_temp_R + " Nick " + roomNum_temp_N + " Picked: "+ roomNum_temp);
+        if (roomNum == -1 && (!change && Rick != roomNum_temp && Rick != -1 || change && Nick != roomNum_temp && Nick != -1))
         {
-            roomNum_temp = (Rick != -1) ? Rick : Nick;
+            if(Rick != roomNum_temp_R && Rick != -1)
+            {
+                roomNum_temp_R = Rick;
+            }
+            if(Nick != roomNum_temp_N && Nick != -1)
+            {
+                roomNum_temp_N = Nick;
+            }
+            if(roomNum_temp_R != roomNum_temp && roomNum_temp_R != -1)
+            {
+                roomNum_temp = roomNum_temp_R;
+            }else if(roomNum_temp_N != roomNum_temp && roomNum_temp_N != -1)
+            {
+                roomNum_temp = roomNum_temp_N;
+            }
+            //roomNum_temp = (roomNum_temp_R != place) ? roomNum_temp_R : roomNum_temp_N;
+
+
             if(place == 0)//parlor
             {
                 count = 6;
@@ -91,10 +111,27 @@ public class WayPointsManager : MonoBehaviour
             }
             else if (place == 2)//masterbedroom
             {
-                count = 14;
+                
+                if(count <= 3)
+                {
+                    count = 15;
+                }
+                else
+                {
+                    count = 13;
+                }
+                
             }else if (place == 3)//kitchen
             {
-                count = 9;
+                if (count <= 3)
+                {
+                    count = 11;
+                }
+                else
+                {
+                    count = 9;
+                }
+                
             }else if (place == 4)//bedroom
             {
                 count = 8;
@@ -103,7 +140,7 @@ public class WayPointsManager : MonoBehaviour
             //count = 0;
             roomNum = 0;
         }
-        
+        //print("score:" + count + " place" + place + "me: " +person.transform.position + " other: " +Places[place][count].transform.position);
         person.transform.position = Vector3.MoveTowards(person.transform.position, Places[place][count].transform.position, speed * Time.deltaTime);
         if (person.transform.position == Places[place][count].transform.position)
         {

@@ -38,7 +38,7 @@ public class CameraController : MonoBehaviour
             _xpos = target.position.x + offset.x;
         }
 
-        if ((transform.position.y <= 4 && target.position.y >= 4) || (transform.position.y >= 21 && target.position.y <= 21) || (transform.position.y <= 21 && transform.position.y >= 4))
+        if ((transform.position.y <= 4 && target.position.y >= -0.5) || (transform.position.y >= 21 && target.position.y <= 21) || (transform.position.y <= 21 && transform.position.y >= 4))
         {
             _ypos = target.position.y + offset.y;
         }

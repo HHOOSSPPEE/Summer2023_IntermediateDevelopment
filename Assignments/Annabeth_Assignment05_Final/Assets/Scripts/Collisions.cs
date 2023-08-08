@@ -5,24 +5,40 @@ using UnityEngine;
 public class Collisions : MonoBehaviour
 {
     public int KnockBarrelFrom;
+    private bool subChanged;
+    public bool changed;
+
+    public bool GM;
     // Start is called before the first frame update
     void Start()
     {
         KnockBarrelFrom = -1;
+        //true == nick
+        GM = GameObject.Find("GameManager").GetComponent<GameManager>().characterChange;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        GM = GameObject.Find("GameManager").GetComponent<GameManager>().characterChange;
     }
 
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Barrel" && Input.GetKeyDown(KeyCode.X))
+       
+        if (collision.gameObject.tag == "Barrel" && Input.GetKey(KeyCode.X))
         {
-           if(collision.gameObject.name == "Barrel_P")
+            print("yes");
+            if (GM)
+            {
+                changed = true;
+            }
+            else
+            {
+                changed = false;
+            }
+            if (collision.gameObject.name == "Barrel_P1" || collision.gameObject.name == "Barrel_P2")
             {
                 KnockBarrelFrom = 0;
             }
@@ -44,7 +60,12 @@ public class Collisions : MonoBehaviour
             {
                 KnockBarrelFrom = 4;
             }
-            
+
         }
     }
+    public void OnTriggerExit2D(Collider2D collision)
+    {
+        KnockBarrelFrom = -1;
+    }
+
 }

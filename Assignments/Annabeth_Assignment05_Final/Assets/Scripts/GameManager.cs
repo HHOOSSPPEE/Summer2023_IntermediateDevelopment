@@ -11,14 +11,18 @@ public class GameManager : MonoBehaviour
     //true: Nick; false: Rick
     public bool characterChange;
 
-    public bool marriageCertificate;
-    public bool newsPaper;
-    public bool twinsPhoto;
-    public bool couplePhoto1;
-    public bool couplePhoto2;
-    public bool photo1;
-    public bool photo2;
-    public bool photo3;
+    public bool marriageCertificate = false;
+    public bool newsPaper = false;
+    public bool twinsPhoto = false;
+    public bool couplePhoto1 = false;
+    public bool couplePhoto2 = false;
+    public bool photo1 = false;
+    public bool photo2 = false;
+    public bool photo3 = false;
+
+    public bool keyBox = false;
+    public bool keyCloset = false;
+    public bool keySave = false;
 
     // Start is called before the first frame update
     void Start()
