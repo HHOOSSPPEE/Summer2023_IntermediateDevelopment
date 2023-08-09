@@ -24,17 +24,22 @@ public class GameManager : MonoBehaviour
     public bool keyCloset = false;
     public bool keySave = false;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
         Invent.SetActive(false);
         //Controlling Nick
         characterChange = true;
+       
     }
 
     // Update is called once per frame
     void Update()
     {
+        
+
         if (Input.GetKeyDown(KeyCode.C))
         {
             if (characterChange)
@@ -47,5 +52,8 @@ public class GameManager : MonoBehaviour
             }
             
         }
+
     }
+
+
 }

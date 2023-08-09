@@ -25,7 +25,7 @@ public class WayPointsManager : MonoBehaviour
     public bool change;
 
     public int currentRoom;
-
+    public bool changed;
     public float speed = 2f;
 
     // Start is called before the first frame update
@@ -62,6 +62,7 @@ public class WayPointsManager : MonoBehaviour
     {
         if (finishRoom) 
         {
+            changed = false;
             if(roomNum_temp != -1 && roomNum == 0)
             {
                 place = roomNum_temp;
@@ -83,6 +84,7 @@ public class WayPointsManager : MonoBehaviour
         //print("Rick: " + roomNum_temp_R + " Nick " + roomNum_temp_N + " Picked: "+ roomNum_temp);
         if (roomNum == -1 && (!change && Rick != roomNum_temp && Rick != -1 || change && Nick != roomNum_temp && Nick != -1))
         {
+            changed = true;
             if(Rick != roomNum_temp_R && Rick != -1)
             {
                 roomNum_temp_R = Rick;

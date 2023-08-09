@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Barrel
   - Empty
+  - Door
   layers:
   - Default
   - TransparentFX

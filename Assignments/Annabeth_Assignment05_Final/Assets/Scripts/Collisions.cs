@@ -27,7 +27,7 @@ public class Collisions : MonoBehaviour
     public void OnTriggerStay2D(Collider2D collision)
     {
        
-        if (collision.gameObject.tag == "Barrel" && Input.GetKey(KeyCode.X))
+        if (collision.gameObject.tag == "Barrel" && Input.GetKey("space"))
         {
             print("yes");
             if (GM)

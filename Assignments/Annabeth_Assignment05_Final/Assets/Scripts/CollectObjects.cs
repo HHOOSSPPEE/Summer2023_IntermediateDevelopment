@@ -117,10 +117,12 @@ public class CollectObjects : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+        
         if (collision.gameObject.layer == 7 && collision.gameObject.GetComponent<ActiveObject>().collected == false)
         {
+            colliding = true;
             timeToDisappear = true;
-            //colliding = true;
+            
         }
     }
 
@@ -128,7 +130,7 @@ public class CollectObjects : MonoBehaviour
     {
         if (collision.gameObject.layer == 7 && collision.gameObject.GetComponent<ActiveObject>().collected == false)
         {
-            //colliding = true;
+            colliding = true;
             if (timeToDisappear)
             {
                 bubble.SetActive(true);
