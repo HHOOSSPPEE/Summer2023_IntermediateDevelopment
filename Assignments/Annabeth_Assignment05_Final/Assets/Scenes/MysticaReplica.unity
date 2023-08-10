@@ -54043,7 +54043,7 @@ AudioSource:
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -88128,9 +88128,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2130679961}
+  - {fileID: 2130679944}
   selectedCommands:
-  - {fileID: 2130679970}
+  - {fileID: 2130679983}
   variables: []
   description: 
   stepPause: 0
@@ -88156,7 +88156,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 148
+    x: 147
     y: 116
     width: 93
     height: 40
@@ -88170,8 +88170,8 @@ MonoBehaviour:
   - {fileID: 2130679960}
   - {fileID: 2130679958}
   - {fileID: 2130679957}
-  - {fileID: 2130679956}
   - {fileID: 2130679983}
+  - {fileID: 2130679956}
   suppressAllAutoSelections: 0
 --- !u!4 &2130679946
 Transform:
@@ -88483,7 +88483,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 361.33646
+    x: 360.33646
     y: 138.11768
     width: 83
     height: 40
@@ -88630,7 +88630,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: "Ok now that they are gone, let me tell you about our mission. Yesterday
+  storyText: "Ok now that they are gone, let us tell you about our mission. Yesterday
     our dad told us something really strange! \n"
   description: 
   character: {fileID: 255731410}
@@ -88952,7 +88952,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2130679996
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

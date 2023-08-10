@@ -43,7 +43,7 @@ public class ChangeClock : MonoBehaviour
             digit += factor;
         }
 
-        if (min == 55)
+        if (min == 59)
         {
             if (!audioSource.isPlaying)
             {
