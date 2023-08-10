@@ -11,6 +11,7 @@ public class CollectObjects : MonoBehaviour
     public GameObject couple1, couple2, mom;
     public GameObject saveKey;
     public GameObject dad, news, parent;
+    public GameObject ActualGame;
     //parlor
     private ActiveObject marryRecordO, boxKeyO, closetO, diningTableO, tableO;
     //bedroom
@@ -30,6 +31,9 @@ public class CollectObjects : MonoBehaviour
     private bool timeToDisappear;
 
     private GameManager GM;
+    public AudioSource audioSource;
+    public AudioClip clip;
+    public float volume = 0.2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -51,7 +55,6 @@ public class CollectObjects : MonoBehaviour
 
 
         ProgressBar.SetActive(false);
-
         //parlor
         marryRecordO = GameObject.Find("MarriageRecord_P").GetComponent<ActiveObject>();
         boxKeyO = GameObject.Find("BoxKey_P").GetComponent<ActiveObject>();
@@ -82,6 +85,11 @@ public class CollectObjects : MonoBehaviour
         tableO3 = GameObject.Find("Table_M").GetComponent<ActiveObject>();
         alterO = GameObject.Find("Alter_M").GetComponent<ActiveObject>();
 
+
+
+
+
+
         GM = GameObject.Find("GameManager").GetComponent<GameManager>();
 
         colliding = false;
@@ -91,20 +99,39 @@ public class CollectObjects : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ////parlor
-        //marryRecordO = GameObject.Find("MarriageRecord_P").GetComponent<ActiveObject>();
-        //boxKeyO = GameObject.Find("BoxKey_P").GetComponent<ActiveObject>();
-        //closetO = GameObject.Find("Closet_P").GetComponent<ActiveObject>();
-        //diningTableO = GameObject.Find("DiningTable_P").GetComponent<ActiveObject>();
-        //tableO = GameObject.Find("Table_P").GetComponent<ActiveObject>();
-        //Bar = GameObject.Find("barFill");
-        ////bedroom
-        //twinsPhotoO = GameObject.Find("TwinsPhoto_B").GetComponent<ActiveObject>();
-        //closetKeyO = GameObject.Find("ClosetKey_B").GetComponent<ActiveObject>();
-        //closetO2 = GameObject.Find("Closet_B").GetComponent<ActiveObject>();
-        //tableO2 = GameObject.Find("Table_B").GetComponent<ActiveObject>();
-        //bedO = GameObject.Find("Bed_B").GetComponent<ActiveObject>();
 
+        //if (ActualGame.activeSelf == true)
+        //{
+        //    //parlor
+        //    marryRecordO = GameObject.Find("MarriageRecord_P").GetComponent<ActiveObject>();
+        //    boxKeyO = GameObject.Find("BoxKey_P").GetComponent<ActiveObject>();
+        //    closetO = GameObject.Find("Closet_P").GetComponent<ActiveObject>();
+        //    diningTableO = GameObject.Find("DiningTable_P").GetComponent<ActiveObject>();
+        //    tableO = GameObject.Find("Table_P").GetComponent<ActiveObject>();
+        //    //bedroom
+        //    twinsPhotoO = GameObject.Find("TwinsPhoto_B").GetComponent<ActiveObject>();
+        //    closetKeyO = GameObject.Find("ClosetKey_B").GetComponent<ActiveObject>();
+        //    closetO2 = GameObject.Find("Closet_B").GetComponent<ActiveObject>();
+        //    tableO2 = GameObject.Find("Table_B").GetComponent<ActiveObject>();
+        //    bedO = GameObject.Find("Bed_B").GetComponent<ActiveObject>();
+        //    //kitchen
+        //    couplePhotoO1 = GameObject.Find("Photo1_K").GetComponent<ActiveObject>();
+        //    couplePhotoO2 = GameObject.Find("Photo2_K").GetComponent<ActiveObject>();
+        //    momO = GameObject.Find("Mom_K").GetComponent<ActiveObject>();
+        //    diningTableO2 = GameObject.Find("DiningTable_K").GetComponent<ActiveObject>();
+        //    stoveO = GameObject.Find("Stove_K").GetComponent<ActiveObject>();
+        //    //hall
+        //    saveKeyO = GameObject.Find("SaveKey_H").GetComponent<ActiveObject>();
+        //    //masterBR
+        //    dadO = GameObject.Find("Dad_M").GetComponent<ActiveObject>();
+        //    parentO = GameObject.Find("Parent_M").GetComponent<ActiveObject>();
+        //    newsO = GameObject.Find("News_M").GetComponent<ActiveObject>();
+        //    bedO2 = GameObject.Find("Bed_M").GetComponent<ActiveObject>();
+        //    deskO = GameObject.Find("Desk_M").GetComponent<ActiveObject>();
+        //    photoO = GameObject.Find("Photo_M").GetComponent<ActiveObject>();
+        //    tableO3 = GameObject.Find("Table_M").GetComponent<ActiveObject>();
+        //    alterO = GameObject.Find("Alter_M").GetComponent<ActiveObject>();
+        //}
         if (ProgressBar.activeSelf == true)
         {
             //print(Bar.GetComponent<ProgressBar>().timesUpNext);
@@ -139,6 +166,7 @@ public class CollectObjects : MonoBehaviour
             
             if (Input.GetKey(KeyCode.X))
             {
+                
                 timeToDisappear = false;
                 ProgressBar.SetActive(true);
             }
@@ -147,12 +175,18 @@ public class CollectObjects : MonoBehaviour
             {
                 if (collected)
                 {
+                    
                     Bar.GetComponent<ProgressBar>().timesUpNext = false;
                     Bar.GetComponent<ProgressBar>().energy = 0;
                     ProgressBar.SetActive(false);
                     //parlor
                     if (collision.gameObject.name == "MarriageRecord_P")
                     {
+                        if (!audioSource.isPlaying)
+                        {
+                            audioSource.PlayOneShot(clip, volume);
+                        }
+                        
                         GM.marriageCertificate = true;
                         marryRecordO.collected = true;
                         detect.SetActive(false);
@@ -160,6 +194,10 @@ public class CollectObjects : MonoBehaviour
                     }
                     else if (collision.gameObject.name == "BoxKey_P")
                     {
+                        if (!audioSource.isPlaying)
+                        {
+                            audioSource.PlayOneShot(clip, volume);
+                        }
                         GM.keyBox = true;
                         boxKeyO.collected = true;
                         detect.SetActive(false);
@@ -168,6 +206,10 @@ public class CollectObjects : MonoBehaviour
                     //bedroom
                     else if (collision.gameObject.name == "TwinsPhoto_B")
                     {
+                        if (!audioSource.isPlaying)
+                        {
+                            audioSource.PlayOneShot(clip, volume);
+                        }
                         GM.twinsPhoto = true;
                         twinsPhotoO.collected = true;
                         detect.SetActive(false);
@@ -175,6 +217,10 @@ public class CollectObjects : MonoBehaviour
                     }
                     else if (collision.gameObject.name == "ClosetKey_B")
                     {
+                        if (!audioSource.isPlaying)
+                        {
+                            audioSource.PlayOneShot(clip, volume);
+                        }
                         GM.keyCloset = true;
                         closetKeyO.collected = true;
                         detect.SetActive(false);
@@ -183,6 +229,10 @@ public class CollectObjects : MonoBehaviour
                     //kitchen
                     else if(collision.gameObject.name == "Photo1_K")
                     {
+                        if (!audioSource.isPlaying)
+                        {
+                            audioSource.PlayOneShot(clip, volume);
+                        }
                         GM.couplePhoto1 = true;
                         couplePhotoO1.collected = true;
                         detect.SetActive(false);
@@ -190,6 +240,10 @@ public class CollectObjects : MonoBehaviour
                     }
                     else if (collision.gameObject.name == "Photo2_K")
                     {
+                        if (!audioSource.isPlaying)
+                        {
+                            audioSource.PlayOneShot(clip, volume);
+                        }
                         GM.couplePhoto2 = true;
                         couplePhotoO2.collected = true;
                         detect.SetActive(false);
@@ -199,6 +253,10 @@ public class CollectObjects : MonoBehaviour
                     {
                         if (GM.keyBox)
                         {
+                            if (!audioSource.isPlaying)
+                            {
+                                audioSource.PlayOneShot(clip, volume);
+                            }
                             GM.photo1 = true;
                             momO.collected = true;
                             detect.SetActive(false);
@@ -213,6 +271,10 @@ public class CollectObjects : MonoBehaviour
                     //hall
                     else if (collision.gameObject.name == "SaveKey_H")
                     {
+                        if (!audioSource.isPlaying)
+                        {
+                            audioSource.PlayOneShot(clip, volume);
+                        }
                         GM.keySave = true;
                         saveKeyO.collected = true;
                         detect.SetActive(false);
@@ -221,6 +283,10 @@ public class CollectObjects : MonoBehaviour
                     //masterBR
                     else if (collision.gameObject.name == "News_M")
                     {
+                        if (!audioSource.isPlaying)
+                        {
+                            audioSource.PlayOneShot(clip, volume);
+                        }
                         GM.newsPaper = true;
                         newsO.collected = true;
                         detect.SetActive(false);
@@ -230,6 +296,10 @@ public class CollectObjects : MonoBehaviour
                     {
                         if (GM.keyCloset)
                         {
+                            if (!audioSource.isPlaying)
+                            {
+                                audioSource.PlayOneShot(clip, volume);
+                            }
                             GM.photo2 = true;
                             dadO.collected = true;
                             detect.SetActive(false);
@@ -245,6 +315,10 @@ public class CollectObjects : MonoBehaviour
                     {
                         if (GM.keySave)
                         {
+                            if (!audioSource.isPlaying)
+                            {
+                                audioSource.PlayOneShot(clip, volume);
+                            }
                             GM.photo3 = true;
                             parentO.collected = true;
                             detect.SetActive(false);

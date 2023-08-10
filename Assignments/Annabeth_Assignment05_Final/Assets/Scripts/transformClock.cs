@@ -5,8 +5,8 @@ using UnityEngine;
 public class transformClock : MonoBehaviour
 {
     CanvasGroup canvasGroup;
-    public Vector3 invent = new Vector3(-251, 182, 0);
-    public Vector3 origin = new Vector3(1074.094f, 654.1316f, 0);
+    public Vector3 invent;
+    public Vector3 origin;
     public Vector3 offset;
     //Vector3 3 -110.6049
 
@@ -25,15 +25,13 @@ public class transformClock : MonoBehaviour
     }
     public void turnClockOff()
     {
-        transform.position = invent;
-        //canvasGroup.alpha = 0f; 
-        //canvasGroup.blocksRaycasts = false; 
-        //GetComponent<CanvasRenderer>().cull = false;
+        transform.position = transform.position - new Vector3(1000, 0, 0);
     }
 
     public void turnClockOn()
     {
-        transform.position = origin;
+        transform.position = transform.position + new Vector3(1000, 0, 0);
+        //transform.position = origin;
         //canvasGroup.alpha = 1f;
         //canvasGroup.blocksRaycasts = true;
         //GetComponent<CanvasRenderer>().cull = true;

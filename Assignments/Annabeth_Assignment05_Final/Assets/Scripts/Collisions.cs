@@ -9,6 +9,11 @@ public class Collisions : MonoBehaviour
     public bool changed;
 
     public bool GM;
+    public bool collided;
+
+    public AudioClip clip;
+    public AudioSource audioSource;
+    public float volume = 0.2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +34,11 @@ public class Collisions : MonoBehaviour
        
         if (collision.gameObject.tag == "Barrel" && Input.GetKey("space"))
         {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.PlayOneShot(clip, volume);
+            }
+            collided = true;
             print("yes");
             if (GM)
             {

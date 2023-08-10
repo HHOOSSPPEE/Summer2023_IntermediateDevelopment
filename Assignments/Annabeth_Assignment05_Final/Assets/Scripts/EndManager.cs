@@ -23,6 +23,12 @@ public class EndManager : MonoBehaviour
     public GameManager GM;
 
     private bool endReached;
+
+    public AudioClip audioSource;
+    public AudioClip audioSource2;
+    public AudioClip audioChoose;
+    public AudioSource audioPlay;
+    public float volume = 0.2f;
     // Start is called before the first frame update
     void Start()
     {
@@ -33,6 +39,7 @@ public class EndManager : MonoBehaviour
 
         endName = Name.GetComponent<TMP_Text>();
         endText = Text.GetComponent<TMP_Text>();
+        audioChoose = audioSource2;
 
     }
 
@@ -69,19 +76,22 @@ public class EndManager : MonoBehaviour
 
         if(GM.marriageCertificate && GM.newsPaper && GM.twinsPhoto && GM.couplePhoto1 && GM.couplePhoto2 && GM.photo1 && GM.photo2 && GM.photo3)
         {
-            alert3.SetActive(true);
+            StartCoroutine(Discover());
             StartCoroutine(EndReady());
+            audioChoose = audioSource;
             endName.text = "Cousins";
-            endText.text = "We found the truth! We are cousins! Our parents both have twins that perished in the car accident when we were babies, and so the four of us remaining left in the family joined together.";
+            endText.text = "We are cousins! Our parents both have twins that perished in the car accident when we were babies, and so the four of us remaining joined together.";
 
         }else if ((GM.photo1 && GM.photo2 && GM.photo3) == false)
         {
             if (GM.newsPaper)
             {
+                
                 endName.text = "Addams";
                 endText.text = "Something terrible must have happened in this family. Why are they keeping this old newspaper?";
             }else if (GM.marriageCertificate)
             {
+                
                 endName.text = "Rename";
                 endText.text = "Guess mom changed her name, that’s all. What else could it be?";
             }
@@ -103,13 +113,23 @@ public class EndManager : MonoBehaviour
     {
         
         yield return new WaitForSeconds(2);
+        audioPlay.PlayOneShot(audioChoose, volume);
+
         endReached = true;
         alarm.SetActive(false);
         alert.SetActive(false);
         alert2.SetActive(false);
+        alert3.SetActive(false);
         EndScreen.SetActive(true);
-
+        audioPlay.Play();
         Time.timeScale = 0;
+    }
+
+    IEnumerator Discover()
+    {
+
+        yield return new WaitForSeconds(1);
+        alert3.SetActive(true);
     }
 
 

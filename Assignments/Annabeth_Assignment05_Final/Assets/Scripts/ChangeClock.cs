@@ -13,7 +13,10 @@ public class ChangeClock : MonoBehaviour
     public float minNotRounded = 0;
     private int digit;
     public bool bedTime = false;
-    
+
+    public AudioSource audioSource;
+    public float volume = 0.1f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -40,8 +43,17 @@ public class ChangeClock : MonoBehaviour
             digit += factor;
         }
 
-        if(min > 59)
+        if (min == 55)
         {
+            if (!audioSource.isPlaying)
+            {
+                audioSource.Play();
+                //audioSource.PlayOneShot(clip, volume);
+            }
+        }
+        if (min > 59)
+        {
+            audioSource.Stop();
             bedTime = true;
             time.text = "00";
         }

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
+    public bool tutorialOver;
     public Transform target;
     public Vector3 offset;
     private Vector3 _pos;
@@ -12,25 +13,47 @@ public class CameraController : MonoBehaviour
     private float _ypos;
     public GameManager GM;
 
+    public GameObject Tutorial;
+    public GameObject Game;
+
+
     // Start is called before the first frame update
     void Start()
     {
-        //transform.position = new Vector3(-3.5f, 5, offset.z);
+        tutorialOver = false;
     }
 
 
     // Update is called once per frame
     void Update()
     {
-
-        if (GM.characterChange)
+        if (!tutorialOver && Tutorial.activeSelf)
         {
-            target = GameObject.Find("Nick").GetComponent<Transform>();
+            if (GM.characterChange)
+            {
+                target = GameObject.Find("Nick_T").GetComponent<Transform>();
+            }
+            else
+            {
+                target = GameObject.Find("Rick_T").GetComponent<Transform>();
+            }
+        }
+        else if(Game.activeSelf)
+        {
+            if (GM.characterChange)
+            {
+                target = GameObject.Find("Nick").GetComponent<Transform>();
+            }
+            else
+            {
+                target = GameObject.Find("Rick").GetComponent<Transform>();
+            }
         }
         else
         {
-            target = GameObject.Find("Rick").GetComponent<Transform>();
+            target = GameObject.Find("GameManager").GetComponent<Transform>();
         }
+
 
 
         if ((transform.position.x >= 3.5 && target.position.x <= 3.5) || (transform.position.x <= -10 && target.position.x >= -10) || (transform.position.x <= 3.5 && transform.position.x >= -10))
