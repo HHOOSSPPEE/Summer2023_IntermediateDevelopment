@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEditor.Build.Content;
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -27,6 +27,11 @@ public class SecondWind : MonoBehaviour
     public void Still()
     {
         slider.value += 150;
+    }
+
+    public void BStill()
+    {
+        slider.value += 1;
     }
 
     // Update is called once per frame

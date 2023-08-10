@@ -13,7 +13,9 @@ public class Playermove : MonoBehaviour
     private Rigidbody2D rb;
     public SpeedManger SpeedManger;
     public Animator animator;
-    public GameObject secondWind;
+    public SecondWind secondWind;
+
+  
 
     public scoresaver scoresaver;
 
@@ -31,7 +33,7 @@ public class Playermove : MonoBehaviour
         animator = GetComponent<Animator>();
         scoresaver = GameObject.FindGameObjectWithTag("Score").GetComponent<scoresaver>();
         scoresaver.score = 0;
-
+        secondWind = GameObject.FindGameObjectWithTag("SW").GetComponent<SecondWind>();
     }
 
     private void OnMovement(InputValue value)
@@ -69,10 +71,7 @@ public class Playermove : MonoBehaviour
             animator.SetBool("Left", false);
         }
 
-        if (life <= 0)
-        { 
-            secondWind.SetActive(true);
-        }
+       
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -83,6 +82,10 @@ public class Playermove : MonoBehaviour
             Destroy(collision.gameObject);
             Instantiate(explosionEffect, transform.position, transform.rotation);
             explosion.Play();
+            if (life < 0) 
+            {
+                secondWind.BStill();
+            }
             shakeffect.start = true;
         }
         
