@@ -88128,9 +88128,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2130679976}
+  - {fileID: 2130679961}
   selectedCommands:
-  - {fileID: 2130679994}
+  - {fileID: 2130679970}
   variables: []
   description: 
   stepPause: 0
@@ -88385,9 +88385,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 18
   indentLevel: 0
-  storyText: 'SHHHH! Quiet. T
-
-'
+  storyText: "SHHHH! Quiet. \n"
   description: 
   character: {fileID: 1896984490}
   portrait: {fileID: 21300000, guid: dffe24435f32544429be20ea3b73eb13, type: 3}
