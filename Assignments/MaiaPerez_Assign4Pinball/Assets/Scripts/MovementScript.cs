@@ -21,6 +21,8 @@ public class MovementScript : MonoBehaviour
         if (Input.GetKey(treekey))
         {
             rb2d.AddForce(Vector3.up*speed);
+
         }
+
     }
 }
