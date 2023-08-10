@@ -15,11 +15,10 @@ public class Lvl2Spawner : MonoBehaviour
     private bool dontStop = true;
     private float number;
 
-    // Update is called once per frame
     void Update()
     {
         number = Random.value;
-
+        // same thing but 3 lanes
         if (number < 0.33)
         {
             sciPosition.y = 0.707f;
@@ -54,7 +53,7 @@ public class Lvl2Spawner : MonoBehaviour
     }
 
     IEnumerator SpawnTimes()
-    {
+    { // there was probably a better way to do this
         yield return new WaitForSeconds(8);
         Instantiate(Scientist, sciPosition, Quaternion.identity);
         yield return new WaitForSeconds(6);

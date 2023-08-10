@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class MenuScript : MonoBehaviour
 {
     public void SceneChange(string sceneName)
-    {
+    { //change scene
         SceneManager.LoadScene(sceneName);
     }
 }

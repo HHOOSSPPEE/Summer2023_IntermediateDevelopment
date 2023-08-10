@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class TileScript : MonoBehaviour
 {
-    public BigBottleScript bbscrip; 
+    public BigBottleScript bbscrip;
+    //sends the big bottle script the coordinates of the the tile that was hovered over
+    //if nothing is being hovered over currently, it will send big bottle back to it's origin
 
     public void OnMouseEnter()
     {

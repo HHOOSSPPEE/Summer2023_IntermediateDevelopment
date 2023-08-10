@@ -19,7 +19,7 @@ public class SpawnerScript : MonoBehaviour
             dontStop = false;
         }
         if (checkForWin)
-        {
+        { //if all enemies are spawned, the next complete lack of enemies will signal a win
             if (GameObject.FindGameObjectsWithTag("Scientist").Length == 0)
             {
                 GameObject.Find("NonPerma UI").transform.GetChild(0).gameObject.SetActive(false);
@@ -29,7 +29,7 @@ public class SpawnerScript : MonoBehaviour
     }
 
     IEnumerator SpawnTimes()
-    {
+    { //spawns enemies
         yield return new WaitForSeconds(9);
         Instantiate(Scientist, sciPosition, Quaternion.identity);
         yield return new WaitForSeconds(6);

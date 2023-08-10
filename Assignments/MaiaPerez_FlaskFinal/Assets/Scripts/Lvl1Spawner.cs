@@ -15,6 +15,7 @@ public class Lvl1Spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //scientist can spawn in all lanes, biologist can only spawn on top lane becuase of downwards movement
         if (Random.value < 0.5f) sciPosition.y = -0.3f;
         else sciPosition.y = bioPosition.y;
 
@@ -34,7 +35,7 @@ public class Lvl1Spawner : MonoBehaviour
     }
 
     IEnumerator SpawnTimes()
-    {
+    { //spawns more enemies
         yield return new WaitForSeconds(8);
         Instantiate(Scientist, sciPosition, Quaternion.identity);
         yield return new WaitForSeconds(6);

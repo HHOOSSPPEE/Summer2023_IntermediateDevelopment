@@ -21,6 +21,7 @@ public class UIScript : MonoBehaviour
 
     void Start()
     {
+        //holding on to child images to switch them to parent when needed
         redTog = gameObject.transform.GetChild(0).GetComponent<Toggle>();
         blueTog = gameObject.transform.GetChild(1).GetComponent<Toggle>();
         yellowTog = gameObject.transform.GetChild(2).GetComponent<Toggle>();
@@ -46,12 +47,12 @@ public class UIScript : MonoBehaviour
     }
 
     public void Reset()
-    {
+    { //debugging issue idk
         StartCoroutine(RealReset());
     }
 
     IEnumerator RealReset()
-    {
+    { //ensures that only 2 bottles can be clicked and visible at a time, then after use requires 4 seconds before another potion can be made
         Product(justClicked, furthestClicked);
         justClicked.SetIsOnWithoutNotify(false);
         furthestClicked.SetIsOnWithoutNotify(false);
@@ -66,6 +67,7 @@ public class UIScript : MonoBehaviour
 
     void Product(Toggle justClicked, Toggle furthestClicked)
     {
+        //determines if 2 bottles are clicked and if so what color will result
         if (justClicked != null && furthestClicked != null)
         {
             if (justClicked != redTog && furthestClicked != redTog)
@@ -76,6 +78,9 @@ public class UIScript : MonoBehaviour
                 bigBottle.GetComponent<Image>().sprite = purpleBottle.sprite;
         }
     }
+
+    //all functions below allow each bottle to set themselves as the most recent or last recent one clicked, so that if a player
+    //changes their mind the game knows which to not count
 
     public void RedChanges()
     {

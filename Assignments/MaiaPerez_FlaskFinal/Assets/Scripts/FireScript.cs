@@ -6,8 +6,10 @@ public class FireScript : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //if enemy
         if (collision.gameObject.GetComponent<CapsuleCollider2D>() != null)
         {
+            //enemy die
             Destroy(collision.gameObject);
             Destroy(gameObject);
         }
