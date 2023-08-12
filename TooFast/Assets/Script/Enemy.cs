@@ -149,7 +149,7 @@ public class Enemy : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
-
+        //what will happen after player hit
         if (collision.gameObject.tag == "Bullet")
         {
             

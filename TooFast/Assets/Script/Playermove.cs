@@ -15,6 +15,8 @@ public class Playermove : MonoBehaviour
     public Animator animator;
     public SecondWind secondWind;
 
+    public GameObject fire;
+    public GameObject fire2;
   
 
     public scoresaver scoresaver;
@@ -38,7 +40,7 @@ public class Playermove : MonoBehaviour
 
     private void OnMovement(InputValue value)
     {
-        
+        //set the movement by input
         movement = value.Get<Vector2>();
         
 
@@ -46,15 +48,17 @@ public class Playermove : MonoBehaviour
 
     private void FixedUpdate()
     {
+        //move the player
         if (movement.x != 0 || movement.y != 0)
         {
-            rb.velocity = movement * (mult + SpeedManger.Speedmult * 5);
+           
+            rb.velocity = movement * (mult + SpeedManger.Speedmult);
         }
     }
 
     private void Update()
     {
-        
+        //change the animation by input
         if (Input.GetKey(KeyCode.D))
         {
             animator.SetBool("Right", true);
@@ -71,17 +75,28 @@ public class Playermove : MonoBehaviour
             animator.SetBool("Left", false);
         }
 
+        if (life <= 50)
+        { 
+            fire.SetActive(true);
+        }
+
+        if(life <=  15) 
+        {
+            fire2.SetActive(true);
+        }
        
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //what happen after player hit Ebullet
         if (collision.gameObject.tag == "E-Bullet")
         {
             life--;
             Destroy(collision.gameObject);
             Instantiate(explosionEffect, transform.position, transform.rotation);
             explosion.Play();
+            //when hp is lower than 0 trigger second wind
             if (life < 0) 
             {
                 secondWind.BStill();
@@ -93,6 +108,7 @@ public class Playermove : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
+        //cost life when hit enemy
         if (collision.gameObject.tag == "Enemy")
         {
             life--;

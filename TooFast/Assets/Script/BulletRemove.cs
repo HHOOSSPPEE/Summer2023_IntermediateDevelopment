@@ -9,6 +9,7 @@ public class BulletRemove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //remove bullet when timerun out
         lifetime--;
         if (lifetime <= 0)
         {

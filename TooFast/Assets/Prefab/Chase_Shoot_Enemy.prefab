@@ -141,6 +141,8 @@ MonoBehaviour:
   ShootTime: 500
   follow_bullet: {fileID: 6458672512323747943, guid: 67cc52b40c0169444a43e65558dff47c, type: 3}
   Rigidbody: {fileID: 0}
+  scoresaver: {fileID: 0}
+  secondWind: {fileID: 0}
 --- !u!60 &6586199453287768739
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -202,9 +204,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4bffafaf742397045929df29045899b9, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 6be4fd8aa3e37b640b966996e0caf1ff, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.307
+  m_Volume: 0.094
   m_Pitch: 1
   Loop: 0
   Mute: 0

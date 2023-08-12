@@ -16,6 +16,7 @@ public class SpeedLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //showing the speed
         text.text = "Speed:"+ (speedManger.Speedmult * 10).ToString();
     }
 }

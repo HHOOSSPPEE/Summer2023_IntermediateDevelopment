@@ -22,31 +22,37 @@ public class Homing : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        //life time
         lifetime --;
 
+        // if there is no target just go up
         if (target == null)
         {
             rb.velocity = transform.up * speed;
         }
 
+        //destory after lifetime hot 0
         if (lifetime < 0)
         {
             Destroy(gameObject);
         }
 
+        //set the direction
         Vector2 direction = (Vector2)target.position - rb.position;
 
         direction.Normalize();
 
+
         float rotateAmount = Vector3.Cross(direction, transform.up).z;
-
+        //set the rotation speed
         rb.angularVelocity = -rotateAmount * rotateSpeed;
-
+        //move
         rb.velocity = transform.up * speed;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //hit effect
         if (collision.gameObject.tag == "Enemy")
         {
             Instantiate(explosionEffect, transform.position, transform.rotation);

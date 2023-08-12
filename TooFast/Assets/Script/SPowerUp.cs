@@ -20,6 +20,7 @@ public class SPowerUp : MonoBehaviour
     
     void Update()
     {
+        //move power up
         rb.position = new Vector2(rb.position.x, rb.position.y + speed );
     }
 
@@ -34,6 +35,7 @@ public class SPowerUp : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //what happen after player catch powerup
         if (collision.gameObject.tag == "Player")
         {
             shakeffect.start = true;
