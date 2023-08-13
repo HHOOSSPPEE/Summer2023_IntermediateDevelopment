@@ -128,7 +128,7 @@ public class EndManager : MonoBehaviour
     IEnumerator Discover()
     {
 
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(2);
         alert3.SetActive(true);
     }
 
