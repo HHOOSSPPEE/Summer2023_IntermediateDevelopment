@@ -1,6 +1,6 @@
 ### **2023 Spring** - YouyangX
-### *Assignment 04* - Just Eat
-Link to game: https://youyangxu.itch.io/week07-just-eat
+### *Final* - Circle
+Link to game: https://youyangxu.itch.io/final-circle
 
 ## **Debrief**
 In at least 400 words, write a debrief. You must write a reflection on your assignment. In addition to specific requirements stated for the assignment, you must answer the following:
@@ -12,7 +12,7 @@ In at least 400 words, write a debrief. You must write a reflection on your assi
 
 Please do not answer these questions individually, but include it in a paragraph format.
 
-	For this project, I ended up making a game similar to pinball scoring. Unlike the previous assignments, this one not only included the class but we were asked to make more changes and follow up. It was more like a simple mini-game rather than just being a part of the game. In this game, I used various physics engines to set up different animations for the scoring points in the game, which is the fish. And by using the player's control to move the small platform in the center of the screen, the black villain can touch the fish and get the score. I actually took a page out of Limbo's theme for this one, which is like a dark and dystopian style. It's a dark and dystopian style, which is actually very formative and can actually imply a lot of story in it. But due to lack of time and my current abilities, I just made a simple character-bouncing game. What's interesting about this game is that the villain will change his rotation and bouncing rhythm by the movement of the table in the middle of the screen, and the faster the villain rotates, the higher the score he can get. I tried playing it a few times on my own and found it to be quite entertaining. In completing this assignment, unlike the previous ones, I looked up a lot of information, such as watching the effects of different Physics Components and how to make the scene jump more smoothly. I actually had more ideas in my head, such as villains that could have special skills, or setting up more complex scenes already with different scoring points. Overall I think I still have a lot of room for improvement. From this project, I realized that the game is made up of a lot of pieces, and it's like I'm trying to build a game slowly, like building blocks. It is a complex but interesting process. For my next assignment, I think I can try to do more different things, like different animations, different character effects, and even more levels. Even I think that my current theme could actually work as a long-term development class. I'm actually kind of sad that I wasn't able to develop more of my ideal "Dark Fairy Tale" game this time around, including the storytelling, the action, and even the stories behind the characters. So I think I might try to continue this theme in my next assignment and develop more of the story, or even try to draw the character animations and scene animations for the game myself.
+	This assignment was the last project of the whole semester and I think it is the most challenging one. For this project, I had to try to design a complete game on my own and use my existing abilities to make it, not just copy and paste. I needed to find more ways to make puzzles in games on my own, so I needed to explore a lot of things that were not covered during class. My game is a puzzle horror game with pixel style, which mainly clone from the game "House". This includes the idea of loops, the horror scenes and style and so on. But I also made many changes, such as the decryption content and a lot of sprites, and used a lot of instant death triggers so that the player needs to pay attention to their own actions. I also used a lot of different soundtracks for the horror atmosphere, including but not limited to distress calls, cries, laughter, and horror songs. The biggest part of this project was actually drawing my own sprites, something I've been wanting to try for the last couple of assignments, and I was able to do so in Final Project. In this project I drew most of the animations frame by frame, including and not limited to character walking, staircase triggered death effects, toilet triggered death effects.I thought it would be easy. I thought it would be simple, but it was actually a lot of work and where I spent most of my time in the later stages. But fortunately the result is satisfactory in my opinion. I'm also grateful for all the relevant games that my classmates recommended to me during the course, which gave me a lot of knowledge of this kind games and a relevant addition to my own game library. This project has brought me a lot of benefits, and I hope to continue to refine this game to make it even better. After all, it's only part of the "Seven Mysteries of School" that I've included in the game now, and I haven't shown more of what I've planned yet. I'd like to try to add more gameplay elements, such as backpacks, archiving, delayed deaths, and more ways to play through the game. In this version, my gameplay is more on the instant trigger death side of things, so I think I can add more variations to make the game more playable.
      
 
 ## **Self Evaluation**
@@ -21,14 +21,14 @@ In addition to the debrief, the Self Evaluation is an opportunity for you to tal
 
 **Execution** (Did your project meet the theme you gave it?) - 5
 
-4 - I think I'm at the point where there are more things that could be developed. Like more level setups, and life values that change and different scores. Even on the art, I could have tried to make more changes. But the game basically runs smoothly and I tried to make it more fun, so I think I deserve this score.
+5 - I think most elements of my preconceptions were accomplished in this project, and I try to add many elements, such as music and different sprites to make this game more close to horror genre. So I think I can get a 5 in this part.
 
 
 **Scope** (How well do you feel you scoped your game?) - 5
 
-4 - I think I basically met the requirements in this assignment, and no obvious bugs were found in the runtime for the time being. but the submission was delayed due to personal reasons, so I gave myself this mark.
+4 - I think I can try to make more changes in my games, like different enemies, different triggers to die and various methods to solve the puzzles. Thus, I consider I can get a 4 for getting passionate about trying more things.
 
 
 **Overall** - Pass/Fail
 
-Pass - I think I basically met the requirements for this assignment, it ran smoothly and was somewhat interesting, so I can get a Pass.
+Pass - I think I basically met the requirements for this final project and it ran smoothly and was somewhat interesting, so I can get a Pass.
