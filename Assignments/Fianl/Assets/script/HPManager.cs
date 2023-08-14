@@ -17,7 +17,7 @@ public class HPManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (healthpoint >= 100)
+        if (healthpoint > 100)
         {
             SceneManager.LoadScene(end);
         }

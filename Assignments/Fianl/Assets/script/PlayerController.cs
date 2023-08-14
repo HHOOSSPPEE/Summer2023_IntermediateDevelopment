@@ -13,25 +13,27 @@ public class PlayerController : MonoBehaviour
 
     public GameObject AttackR;
     public GameObject monster;
-
+    public GameObject MonsterI;
     private GameObject playerObj = null;
     //public Transform playerTransform;
 
     public Rigidbody2D _rigidbody;
+    public HPManager HPManager;
     public Vector2 _movement;
-
+    public int Corruption = 10;
     public float timeRemaining = 10;
     public float timeAttack = 1;
     public Animator playerAnimator;
     public Vector2 _previousPosition;
     public Transform playerTransform;
 
-
     // Start is called before the first frame update
     void Start()
     {
         _previousPosition = _rigidbody.position;
         gameObject.tag = "Player";
+        Instantiate(HPManager);
+        Instantiate(MonsterI);
     }
 
     // Update is called once per frame
@@ -97,7 +99,14 @@ public class PlayerController : MonoBehaviour
     }
 
 
-
+ 
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Monster")
+        {
+            HPManager.healthpoint += Corruption; 
+        }
+    }
     private void FixedUpdate()
     {
         _rigidbody.MovePosition(_rigidbody.position + _movement * movementSpeed);

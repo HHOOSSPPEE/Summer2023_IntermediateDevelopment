@@ -8,6 +8,7 @@ public class collision : MonoBehaviour {
     
     public int monsterHP = 2;
     public HPManager HPManager;
+    public MonsterNum Monster;
     public int Corruption = 10;
     void Start()
     {
@@ -36,6 +37,9 @@ public class collision : MonoBehaviour {
         if (monsterHP == 0)
         {
             Destroy(gameObject);
+            Monster.MonsterNumber --;
+
         }
+
     }
 }

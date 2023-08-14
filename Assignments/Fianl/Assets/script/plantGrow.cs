@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class plantGrow : MonoBehaviour
 {
-    
-    public GameObject plant;
+
+    public Instantiator seed;
     
     public Sprite[] spriteArray;
     public float growTime = 30;
     public HPManager HPManager;
-    public int Corruption = 10;
+ 
     public SpriteRenderer spriteRenderer;
    
     
@@ -18,7 +18,8 @@ public class plantGrow : MonoBehaviour
     void Start()
     {
         gameObject.tag = "Plant";
-       
+        growTime = 30;
+
     }
 
     // Update is called once per frame
@@ -26,10 +27,9 @@ public class plantGrow : MonoBehaviour
     {
         if (col.gameObject.tag == "Player" && spriteRenderer.sprite == spriteArray[5])
         {
-            Debug.Log("playerCorruption");
-            HPManager.healthpoint -= Corruption;
-            growTime = 30;
-
+            Debug.Log("playerheal");
+            HPManager.healthpoint -= 10;
+            //seed.seedNumber -= 1;
             Destroy(gameObject);
         }
 
@@ -70,5 +70,6 @@ public class plantGrow : MonoBehaviour
 
 
     }
+
 
 }

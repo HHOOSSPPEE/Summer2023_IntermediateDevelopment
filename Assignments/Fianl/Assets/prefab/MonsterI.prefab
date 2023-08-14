@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1219175002987941930
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6608805559646348842}
+  - component: {fileID: 8642902829523266560}
+  - component: {fileID: 4011542933696746594}
+  m_Layer: 0
+  m_Name: MonsterI
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6608805559646348842
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219175002987941930}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.528753, y: -19.347345, z: -0.19318032}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8642902829523266560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219175002987941930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66b94d213845fa54eb29ab776533d74b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  monster: {fileID: 6259103881812685650, guid: 720b5fd618d5397418b8d239a7b1aad9, type: 3}
+  location: {x: 0, y: 0}
+  timeRemaining: 6
+  spawnPosition: {x: 0, y: 0}
+  MonsterNumber: {fileID: 4011542933696746594}
+  playerTransform: {fileID: 8174266231250977629, guid: 3edd8f89c6a60554cbe3f5d5f1b71b9a, type: 3}
+  plant: {fileID: 1322573093359123525, guid: c64bf55fbe10dee4d9de38675e7ee7e3, type: 3}
+--- !u!114 &4011542933696746594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1219175002987941930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc262b7b98e95e4cb326289a3db1fb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MonsterNumber: 0
