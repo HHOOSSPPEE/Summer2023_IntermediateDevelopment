@@ -11,12 +11,12 @@ public class Bulletmove : MonoBehaviour
     private float mult = 1f;
     private Rigidbody2D rb;
     public GameObject explosionEffect;
-    public SpeedManger SpeedManger;
+    //public SpeedManger SpeedManger;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
-        SpeedManger = GameObject.FindObjectOfType<SpeedManger>().GetComponent<SpeedManger>();
+        //SpeedManger = GameObject.FindObjectOfType<SpeedManger>().GetComponent<SpeedManger>();
     }
 
    
@@ -36,6 +36,8 @@ public class Bulletmove : MonoBehaviour
         //{
         //    mult = 1.02f; 
         //}
+
+        //Player bullet and enemy bullet moving
         rb.position = new Vector2((rb.position.x + xSpeed) * mult , (rb.position.y + ySpeed) * mult);
     }
 
@@ -50,6 +52,7 @@ public class Bulletmove : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //bullet hit
         if (collision.gameObject.tag == "Enemy" && gameObject.tag == "Bullet")
         {
             Instantiate(explosionEffect, transform.position, transform.rotation);

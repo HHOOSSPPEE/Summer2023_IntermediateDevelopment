@@ -17,17 +17,21 @@ public class backgroundmoving : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        //set the start Pos
         StartPos = transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        //change the moving speed of the bg
         if (speeddown <= 5)
         {
             speeddown = speedManger.Speedmult * 10 + 1;
         }
+        //move the bg
         transform.Translate(translation:Vector3.down*speed*Time.deltaTime * speeddown);
+        //reset the bg
         if (transform.position.y < -55)
         {
             transform.position = StartPos;
