@@ -22,7 +22,7 @@ public class textChanger : MonoBehaviour
     {
         numberS = HPManager.healthpoint;
         number.text = numberS.ToString();
-        if (HPManager.healthpoint > 100)
+        if (HPManager.healthpoint >= 100)
         {
             SceneManager.LoadScene(end);
             Debug.Log("end");

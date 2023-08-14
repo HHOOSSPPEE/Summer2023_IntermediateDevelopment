@@ -12,7 +12,7 @@ public class Instantiator : MonoBehaviour
     public MonsterNum MonsterNumber;
     public Transform playerTransform;
     public GameObject plant;
-    
+    public int seedNumber = 10;
 
     //*
     // Update is called once per frame
@@ -33,10 +33,10 @@ public class Instantiator : MonoBehaviour
 
         playerTransform = playerObj.GetComponent<Transform>();
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && seedNumber >= 0)
         {
             Instantiate(plant, playerTransform.position + (transform.forward), Quaternion.identity);
-            
+            seedNumber--;
         }
 
         if (timeRemaining > 0)

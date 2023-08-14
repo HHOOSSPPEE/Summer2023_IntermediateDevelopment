@@ -10,7 +10,7 @@ public class plantGrow : MonoBehaviour
     public Sprite[] spriteArray;
     public float growTime = 30;
     public HPManager HPManager;
- 
+    
     public SpriteRenderer spriteRenderer;
    
     
@@ -29,7 +29,7 @@ public class plantGrow : MonoBehaviour
         {
             Debug.Log("playerheal");
             HPManager.healthpoint -= 10;
-            //seed.seedNumber -= 1;
+            seedNumber -= 1;
             Destroy(gameObject);
         }
 

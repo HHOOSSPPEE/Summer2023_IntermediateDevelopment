@@ -149,4 +149,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   number: {fileID: 4130584387351627759}
-  HPManager: {fileID: 6693083886899016657, guid: d46608ead94d4474bbdedd8b277ecd0a, type: 3}
+  HPManager: {fileID: 1778975302128322567, guid: d46608ead94d4474bbdedd8b277ecd0a, type: 3}
+  end: 

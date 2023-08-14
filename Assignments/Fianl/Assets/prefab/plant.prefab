@@ -110,7 +110,8 @@ MonoBehaviour:
   - {fileID: -432720622, guid: 4eb43cde75e8a9e4bafb533aee7ccd3c, type: 3}
   - {fileID: 793639778, guid: 4eb43cde75e8a9e4bafb533aee7ccd3c, type: 3}
   growTime: 30
-  HPManager: {fileID: 6693083886899016657, guid: d46608ead94d4474bbdedd8b277ecd0a, type: 3}
+  HPManager: {fileID: 1778975302128322567, guid: d46608ead94d4474bbdedd8b277ecd0a, type: 3}
+  seedNumber: 10
   spriteRenderer: {fileID: 1322573093359123550}
 --- !u!82 &-8466487933652858283
 AudioSource:
@@ -271,7 +272,7 @@ MonoBehaviour:
   location: {x: 0, y: 0}
   timeRemaining: 6
   spawnPosition: {x: 0, y: 0}
-  MonsterNumber: 0
-  seedNumber: 6
+  MonsterNumber: {fileID: 0}
   playerTransform: {fileID: 0}
   plant: {fileID: 0}
+  seedNumber: 6
